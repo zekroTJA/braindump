@@ -1,0 +1,46 @@
+name: "Notion backup"
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: "5 27 * * *"
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    name: Backup
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "18"
+
+      - name: Delete previous backup
+        run: rm -rf markdown html *.zip
+
+      - name: Setup dependencies
+        run: npm install -g notion-backup
+
+      - name: Run backup
+        run: notion-backup
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_FILE_TOKEN: ${{ secrets.NOTION_FILE_TOKEN }}
+          NOTION_SPACE_ID: ${{ secrets.NOTION_SPACE_ID }}
+          NODE_OPTIONS: "--max-http-header-size 15000"
+
+      - name: Restructure
+        run: bash .ci/restruct.bash
+
+      - name: Commit changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Automated dump"
+          git push
