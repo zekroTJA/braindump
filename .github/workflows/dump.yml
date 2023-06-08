@@ -26,7 +26,10 @@ jobs:
       - name: Setup dependencies
         run: npm install -g notion-backup
 
-      - name: Run backup
+      - name: Cleanup
+        run: bash .ci/cleanup.bash
+
+      - name: Run dump
         run: notion-backup
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
