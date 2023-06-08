@@ -14,7 +14,7 @@ Primarily, this is purely for documenting stuff I might forget but really need t
 
 # Contribution
 
-Feel free to create an issue if you have any idea on how to improve these docs or if you want to add missing information. Pull Requests are disabled because back-merging into Notion from these export is quite difficult. Simply express your change-suggestions in an issue and I might add your contributions to the docs (with credits to you if desired, of course).
+Feel free to create an issue if you have any idea on how to improve these docs or if you want to add missing information. **Pull Requests will be ignored** because back-merging into Notion from these export is quite difficult. Simply express your change-suggestions in an issue and I might add your contributions to the docs (with credits to you if desired, of course).
 
 # Index
 
