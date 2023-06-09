@@ -3,3 +3,7 @@
 [DevOps](Development%2002aeaf9ec9954f86bd08ea3bd620f04a/DevOps%2057ea550ee03c4231a496757528e38b73.md)
 
 [Web Development](Development%2002aeaf9ec9954f86bd08ea3bd620f04a/Web%20Development%20804cd2666dec44459d51f8892be5412e.md)
+
+[Languages](Development%2002aeaf9ec9954f86bd08ea3bd620f04a/Languages%20f264e815b0b44efc9c8a8e4bd5e90850.md)
+
+[Linux](Development%2002aeaf9ec9954f86bd08ea3bd620f04a/Linux%20cb3309297ee244a2a914a3e358ef4a33.md)

@@ -13,6 +13,10 @@ Therefore, in 2023, I decided to re-create this repository on Notion. A platform
 
 Primarily, this is purely for documenting stuff I might forget but really need to find later. So don’t expect high quality documentation here. Also, this does not represent *everything* I have in my mind — at least yet in the current state.
 
+> **Warning**  
+Just for clarification, because I am still building up this database of knowledge, the collection might seem a bit random. Currently, as soon as I am learning something new, found something new out or just want to write something down, I put it in here without thinking a lot about structure and continuity. So some documents might get relocated, restructured or complemented later.
+> 
+
 # Contribution
 
 Feel free to create an issue if you have any idea on how to improve these docs or if you want to add missing information. **Pull Requests will be ignored** because back-merging into Notion from these export is quite difficult. Simply express your change-suggestions in an issue and I might add your contributions to the docs (with credits to you if desired, of course).
