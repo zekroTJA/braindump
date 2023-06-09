@@ -1,8 +1,8 @@
 # README
 
 > This Repository is a mirror of my personal Notion space called `Braindump`.
-You can access the public version of this space here:
-[https://numerous-sunscreen-894.notion.site/README-18e7710e4cdf420ca5fe1bbcc4c44481](README%2018e7710e4cdf420ca5fe1bbcc4c44481.md)
+You can access the public version of this space here:  
+[https://s.zekro.de/braindump](https://s.zekro.de/braindump)
 > 
 
 # Preamble
