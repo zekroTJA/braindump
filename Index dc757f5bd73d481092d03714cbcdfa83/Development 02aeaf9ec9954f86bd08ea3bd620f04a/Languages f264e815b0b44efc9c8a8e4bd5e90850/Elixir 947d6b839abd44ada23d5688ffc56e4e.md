@@ -1,0 +1,3 @@
+# Elixir
+
+[DynamicSupervisor](Elixir%20947d6b839abd44ada23d5688ffc56e4e/DynamicSupervisor%2036aa049a417d4cf3b33b1064e9d40d45.md)
