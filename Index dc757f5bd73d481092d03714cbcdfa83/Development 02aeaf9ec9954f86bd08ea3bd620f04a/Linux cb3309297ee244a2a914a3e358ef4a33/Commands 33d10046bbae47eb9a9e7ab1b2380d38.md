@@ -1,6 +1,17 @@
 # Commands
 
-Some commands that I use infrequently enough so I forget they exist, how they are called or used.
+Some commands and command options that I use infrequently enough so I forget they exist, how they are called or used.
+
+# Utilities
+
+## `[ls](https://dashdash.io/1/ls)`
+
+List directories and their contents.
+
+### Flags
+
+- `-t` - Order by timestamp
+- `-r` - Reverse order
 
 # Hardware
 
