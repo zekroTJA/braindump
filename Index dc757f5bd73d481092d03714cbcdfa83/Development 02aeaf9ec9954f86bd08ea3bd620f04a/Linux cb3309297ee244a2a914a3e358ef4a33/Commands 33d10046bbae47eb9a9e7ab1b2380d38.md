@@ -2,7 +2,31 @@
 
 Some commands and command options that I use infrequently enough so I forget they exist, how they are called or used.
 
+# Shells
+
+## `[bash](https://dashdash.io/1/bash)`
+
+GNU Bourne-Again SHell.
+
+### Flags
+
+- `-s` - Pass arguments to a shell when the input is passed via StdIn pipe
+- `-l` - Start a login shell
+- `-c` - Execute a command inline
+
 # Utilities
+
+## `[curl](https://dashdash.io/1/curl)`
+
+CLI utility to do request and HTTP stuff and much more.
+
+### Use-Cases
+
+Save the response status code to a variable.
+
+```bash
+status_code=$(curl -Lo "$target" "$url" -w "%{http_code}")
+```
 
 ## `[ls](https://dashdash.io/1/ls)`
 

@@ -1,4 +1,4 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Linux</title><style>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Switch Case</title><style>
 /* cspell:disable-file */
 /* webkit printing magic: print all background colors */
 html {
@@ -673,4 +673,18 @@ blockquote {
 	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
 }
 	
-</style></head><body><article id="cb330929-7ee2-44a2-a914-a3e358ef4a33" class="page sans"><header><h1 class="page-title">Linux</h1><p class="page-description"></p></header><div class="page-body"><figure id="943e94eb-6329-48eb-99ad-323b50fb4b0d" class="link-to-page"><a href="Linux%20cb3309297ee244a2a914a3e358ef4a33/shebang%20943e94eb632948eb99ad323b50fb4b0d.html">shebang</a></figure><figure id="ccdb80f5-770a-48f8-8389-d834c0e9745a" class="link-to-page"><a href="Linux%20cb3309297ee244a2a914a3e358ef4a33/Fedora%20ccdb80f5770a48f88389d834c0e9745a.html">Fedora</a></figure><figure id="33d10046-bbae-47eb-9a9e-7ab1b2380d38" class="link-to-page"><a href="Linux%20cb3309297ee244a2a914a3e358ef4a33/Commands%2033d10046bbae47eb9a9e7ab1b2380d38.html">Commands</a></figure><figure id="f4fcbd7c-4113-4b12-bcae-9719407749da" class="link-to-page"><a href="Linux%20cb3309297ee244a2a914a3e358ef4a33/zsh%20f4fcbd7c41134b12bcae9719407749da.html">zsh</a></figure><figure id="aa4b258c-673e-4fe5-8d02-18354c5dadef" class="link-to-page"><a href="Linux%20cb3309297ee244a2a914a3e358ef4a33/NixOS%20aa4b258c673e4fe58d0218354c5dadef.html">NixOS</a></figure><figure id="e845b0c5-d78e-4b6e-9100-eed6b62deaed" class="link-to-page"><a href="Linux%20cb3309297ee244a2a914a3e358ef4a33/systemd%20e845b0c5d78e4b6e9100eed6b62deaed.html">systemd</a></figure></div></article></body></html>
+</style></head><body><article id="76c02bfa-32e8-44a9-84c0-dc589db73a52" class="page sans"><header><h1 class="page-title">Switch Case</h1><p class="page-description"></p></header><div class="page-body"><p id="a5542f86-05a5-47c8-bc4a-175575891a49" class="">Switch case statement in bash.</p><h1 id="3cc603bb-6b93-4ff4-a1f7-e162394ac9af" class="">Example</h1><pre id="d3b3ef35-f13b-48a5-981e-4c5f09bca0e5" class="code"><code>case &quot;$BRANCH&quot; in
+
+	&quot;dev&quot;)
+		DTAG=&quot;canary&quot;
+    ;;
+
+	&quot;master&quot;)
+		DTAG=&quot;latest&quot;
+    ;;
+
+	*)
+	  exit 0
+    ;;
+esac</code></pre><p id="b6b81a6f-59b2-45c6-b40c-a31613755aad" class="">
+</p></div></article></body></html>
