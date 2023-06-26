@@ -9,3 +9,5 @@
 [Bash](Languages%20f264e815b0b44efc9c8a8e4bd5e90850/Bash%20cd7f5163fd214780904b27a1b8049e60.md)
 
 [Rust](Languages%20f264e815b0b44efc9c8a8e4bd5e90850/Rust%20d01a88d0c54347988f356ba67a696fd6.md)
+
+[Zig](Languages%20f264e815b0b44efc9c8a8e4bd5e90850/Zig%20c18ea1f9dbe346b8974cae0f176502e8.md)
