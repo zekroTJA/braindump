@@ -673,7 +673,7 @@ blockquote {
 	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
 }
 	
-</style></head><body><article id="e6c70228-b89e-4ec5-a01f-eddc6a798677" class="page sans"><header><h1 class="page-title"><span style="white-space:pre">Function Returns</span></h1><p class="page-description"></p></header><div class="page-body"><p id="2cee978b-a089-4f78-9ccd-79f3fc36c798" class=""><span style="white-space:pre">Here is a simple example of a bash function returning a boolean.</span></p><pre id="95085e0a-02d9-4000-ab5a-d6bcdf5a8ec0" class="code code-wrap"><code>function find_gofiles() {
+</style></head><body><article id="e6c70228-b89e-4ec5-a01f-eddc6a798677" class="page sans"><header><h1 class="page-title">Function Returns</h1><p class="page-description"></p></header><div class="page-body"><p id="2cee978b-a089-4f78-9ccd-79f3fc36c798" class="">Here is a simple example of a bash function returning a boolean.</p><pre id="95085e0a-02d9-4000-ab5a-d6bcdf5a8ec0" class="code code-wrap"><code>function find_gofiles() {
     for dir in ${GOFILE_DIRS[*]}; do
         [ -n &quot;$(find $dir -iname &#x27;**.go&#x27; 2&gt; /dev/null)&quot; ] &amp;&amp; {
             # Store result in a variable

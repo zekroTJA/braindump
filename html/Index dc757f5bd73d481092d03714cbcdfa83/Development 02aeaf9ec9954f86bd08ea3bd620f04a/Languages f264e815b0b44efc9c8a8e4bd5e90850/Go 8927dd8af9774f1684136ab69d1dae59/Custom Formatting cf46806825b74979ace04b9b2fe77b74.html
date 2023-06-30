@@ -673,9 +673,9 @@ blockquote {
 	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
 }
 	
-</style></head><body><article id="cf468068-25b7-4979-ace0-4b9b2fe77b74" class="page sans"><header><h1 class="page-title"><span style="white-space:pre">Custom Formatting</span></h1><p class="page-description"></p></header><div class="page-body"><p id="00d8495e-8448-480f-897f-a3c1fda163f6" class=""><span style="white-space:pre">It is possible to specify custom formatting rules — which are referred when using i.E. </span><code><span style="white-space:pre">fmt.Sprintf</span></code><span style="white-space:pre"> — on types by implementing the following method.</span></p><pre id="2c0baae7-f62b-46bd-9213-88b4c9e3cd55" class="code code-wrap"><code>func (t DetailedError) Format(s fmt.State, verb rune) {
+</style></head><body><article id="cf468068-25b7-4979-ace0-4b9b2fe77b74" class="page sans"><header><h1 class="page-title">Custom Formatting</h1><p class="page-description"></p></header><div class="page-body"><p id="00d8495e-8448-480f-897f-a3c1fda163f6" class="">It is possible to specify custom formatting rules — which are referred when using i.E. <code>fmt.Sprintf</code> — on types by implementing the following method.</p><pre id="2c0baae7-f62b-46bd-9213-88b4c9e3cd55" class="code code-wrap"><code>func (t DetailedError) Format(s fmt.State, verb rune) {
 	// ...
-}</code></pre><h1 id="0bc67a25-29f1-47a8-96e4-2833525d6a7c" class=""><span style="white-space:pre">Example</span></h1><pre id="b4866e1f-6518-40e3-962c-e6f75991711e" class="code code-wrap"><code>func (t DetailedError) Format(s fmt.State, verb rune) {
+}</code></pre><h1 id="0bc67a25-29f1-47a8-96e4-2833525d6a7c" class="">Example</h1><pre id="b4866e1f-6518-40e3-962c-e6f75991711e" class="code code-wrap"><code>func (t DetailedError) Format(s fmt.State, verb rune) {
 	width, _ := s.Width()
 
 	switch verb {
@@ -696,5 +696,5 @@ blockquote {
 			fmt.Fprint(s, t.code)
 		}
 	}
-}</code></pre><h1 id="8f54753e-2883-4cd8-8c8b-5fe246573522" class=""><span style="white-space:pre">Resources</span></h1><ul id="50ccb98b-402c-487c-b5b8-d3d22dca8a0b" class="bulleted-list"><li style="list-style-type:disc"><code><span style="white-space:pre">Format</span></code><span style="white-space:pre"> interface: </span><a href="https://pkg.go.dev/fmt#Formatter"><span style="white-space:pre">https://pkg.go.dev/fmt#Formatter</span></a></li></ul><ul id="1629963e-62e7-433c-baba-55e70074a696" class="bulleted-list"><li style="list-style-type:disc"><code><span style="white-space:pre">fmt</span></code><span style="white-space:pre"> Package Reference: </span><a href="https://pkg.go.dev/fmt"><span style="white-space:pre">https://pkg.go.dev/fmt</span></a></li></ul><p id="3d6df5ef-12b5-4839-ae88-c039f6057604" class="">
+}</code></pre><h1 id="8f54753e-2883-4cd8-8c8b-5fe246573522" class="">Resources</h1><ul id="50ccb98b-402c-487c-b5b8-d3d22dca8a0b" class="bulleted-list"><li style="list-style-type:disc"><code>Format</code> interface: <a href="https://pkg.go.dev/fmt#Formatter">https://pkg.go.dev/fmt#Formatter</a></li></ul><ul id="1629963e-62e7-433c-baba-55e70074a696" class="bulleted-list"><li style="list-style-type:disc"><code>fmt</code> Package Reference: <a href="https://pkg.go.dev/fmt">https://pkg.go.dev/fmt</a></li></ul><p id="3d6df5ef-12b5-4839-ae88-c039f6057604" class="">
 </p></div></article></body></html>
