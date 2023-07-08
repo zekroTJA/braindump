@@ -11,3 +11,5 @@
 [Authentication](Development%2002aeaf9ec9954f86bd08ea3bd620f04a/Authentication%2044ac85c1e08444a0950a73badbd30851.md)
 
 [Tools](Development%2002aeaf9ec9954f86bd08ea3bd620f04a/Tools%202445a249473f4e7e9322137508116ff8.md)
+
+[Vim](Development%2002aeaf9ec9954f86bd08ea3bd620f04a/Vim%20adaf05589db2404e9f24cabb31fd42c8.md)
