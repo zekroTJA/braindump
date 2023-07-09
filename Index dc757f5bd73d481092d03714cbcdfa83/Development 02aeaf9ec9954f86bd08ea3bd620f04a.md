@@ -13,3 +13,7 @@
 [Tools](Development%2002aeaf9ec9954f86bd08ea3bd620f04a/Tools%202445a249473f4e7e9322137508116ff8.md)
 
 [Vim](Development%2002aeaf9ec9954f86bd08ea3bd620f04a/Vim%20adaf05589db2404e9f24cabb31fd42c8.md)
+
+[Git](Development%2002aeaf9ec9954f86bd08ea3bd620f04a/Git%2074efe2b9d9ba405c959f84154ed6efd0.md)
+
+[Raspberry Pi](Development%2002aeaf9ec9954f86bd08ea3bd620f04a/Raspberry%20Pi%208338818b995d4ff78ae4e2594453ee91.md)
