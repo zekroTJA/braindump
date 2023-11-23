@@ -673,5 +673,35 @@ blockquote {
 	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
 }
 	
-</style></head><body><article id="7ae553e5-8ee8-4352-aba6-b0e30ab6e117" class="page sans"><header><h1 class="page-title">Create Self Signed Cerificates</h1><p class="page-description"></p></header><div class="page-body"><pre id="61de7d23-2501-4b6a-872b-6d031ad42aa0" class="code"><code>openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 365 -nodes</code></pre><h1 id="7585fcb3-f99a-418b-8364-dddd6257ee3b" class="">Sources</h1><ul id="ecc88664-1f74-44ef-89bd-f4faa7859d56" class="bulleted-list"><li style="list-style-type:disc"><a href="https://stackoverflow.com/questions/10175812/how-to-generate-a-self-signed-ssl-certificate-using-openssl#10176685">https://stackoverflow.com/questions/10175812/how-to-generate-a-self-signed-ssl-certificate-using-openssl#10176685</a></li></ul><p id="30e138b1-9948-4d1d-91ee-f9876bdd20bb" class="">
+</style></head><body><article id="7ae553e5-8ee8-4352-aba6-b0e30ab6e117" class="page sans"><header><h1 class="page-title">Create Self Signed Cerificates</h1><p class="page-description"></p></header><div class="page-body"><h1 id="7ef6f958-475c-49d5-8544-d7001daac9d2" class="">The Legacy Way</h1><pre id="61de7d23-2501-4b6a-872b-6d031ad42aa0" class="code"><code>openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 365 -nodes</code></pre><h1 id="7585fcb3-f99a-418b-8364-dddd6257ee3b" class="">With SAN Fields</h1><pre id="529c262b-e3ca-44d3-9849-de049868ada0" class="code"><code>[CA_default]
+copy_extensions = copy
+
+[req]
+default_bits = 4096
+prompt = no
+default_md = sha256
+distinguished_name = req_distinguished_name
+x509_extensions = v3_ca
+
+[req_distinguished_name]
+C = DE
+ST = Germany
+L = Brunswick
+O = Company
+OU = Department
+emailAddress = hey@example.com
+CN = example.com
+
+[v3_ca]
+basicConstraints = CA:FALSE
+keyUsage = digitalSignature, keyEncipherment
+subjectAltName = @alternate_names
+
+[alternate_names]
+DNS.1 = localhost
+DNS.2 = *.local</code></pre><pre id="e8249f0d-ef17-44d3-aa36-3adec301676f" class="code"><code>openssl req \
+	-x509 -newkey rsa:4096 -sha256 -utf8 -days 365 -nodes \
+	-config openssl.conf \
+	-keyout key.pem \
+	-out cert.pem</code></pre><h1 id="1b5724b1-6115-482c-b2fb-19f5f1d3cebc" class="">Sources</h1><ul id="ecc88664-1f74-44ef-89bd-f4faa7859d56" class="bulleted-list"><li style="list-style-type:disc"><a href="https://stackoverflow.com/questions/10175812/how-to-generate-a-self-signed-ssl-certificate-using-openssl#10176685">https://stackoverflow.com/questions/10175812/how-to-generate-a-self-signed-ssl-certificate-using-openssl#10176685</a></li></ul><p id="30e138b1-9948-4d1d-91ee-f9876bdd20bb" class="">
 </p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
