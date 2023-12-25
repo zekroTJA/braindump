@@ -641,7 +641,7 @@ blockquote {
 .block-color-red_background {
 	background: rgba(253, 235, 236, 1);
 }
-.select-value-color-interactiveBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-uiBlue { background-color: rgba(35, 131, 226, .07); }
 .select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
 .select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
 .select-value-color-green { background-color: rgba(219, 237, 219, 1); }
@@ -673,7 +673,7 @@ blockquote {
 	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
 }
 	
-</style></head><body><article id="7ae553e5-8ee8-4352-aba6-b0e30ab6e117" class="page sans"><header><h1 class="page-title">Create Self Signed Cerificates</h1><p class="page-description"></p></header><div class="page-body"><h1 id="7ef6f958-475c-49d5-8544-d7001daac9d2" class="">The Legacy Way</h1><pre id="61de7d23-2501-4b6a-872b-6d031ad42aa0" class="code"><code>openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 365 -nodes</code></pre><h1 id="7585fcb3-f99a-418b-8364-dddd6257ee3b" class="">With SAN Fields</h1><pre id="529c262b-e3ca-44d3-9849-de049868ada0" class="code"><code>[CA_default]
+</style></head><body><article id="7ae553e5-8ee8-4352-aba6-b0e30ab6e117" class="page sans"><header><h1 class="page-title">Create Self Signed Cerificates</h1><p class="page-description"></p></header><div class="page-body"><h1 id="7ef6f958-475c-49d5-8544-d7001daac9d2" class="">The Legacy Way</h1><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="61de7d23-2501-4b6a-872b-6d031ad42aa0" class="code"><code class="language-Plain Text">openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 365 -nodes</code></pre><h1 id="7585fcb3-f99a-418b-8364-dddd6257ee3b" class="">With SAN Fields</h1><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="529c262b-e3ca-44d3-9849-de049868ada0" class="code"><code class="language-TOML">[CA_default]
 copy_extensions = copy
 
 [req]
@@ -699,7 +699,7 @@ subjectAltName = @alternate_names
 
 [alternate_names]
 DNS.1 = localhost
-DNS.2 = *.local</code></pre><pre id="e8249f0d-ef17-44d3-aa36-3adec301676f" class="code"><code>openssl req \
+DNS.2 = *.local</code></pre><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="e8249f0d-ef17-44d3-aa36-3adec301676f" class="code"><code class="language-Bash">openssl req \
 	-x509 -newkey rsa:4096 -sha256 -utf8 -days 365 -nodes \
 	-config openssl.conf \
 	-keyout key.pem \

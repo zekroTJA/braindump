@@ -641,7 +641,7 @@ blockquote {
 .block-color-red_background {
 	background: rgba(253, 235, 236, 1);
 }
-.select-value-color-interactiveBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-uiBlue { background-color: rgba(35, 131, 226, .07); }
 .select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
 .select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
 .select-value-color-green { background-color: rgba(219, 237, 219, 1); }
@@ -673,7 +673,7 @@ blockquote {
 	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
 }
 	
-</style></head><body><article id="274d3c68-be9b-42e3-99bb-ab299ddaf0e2" class="page sans"><header><h1 class="page-title">while read</h1><p class="page-description"></p></header><div class="page-body"><p id="8d97960f-7554-44dc-8464-018f939e934a" class=""><code>while read</code> can be used to read a line-by-line output from stdIn.</p><p id="86402514-4a2d-46b2-bec9-024b16e0ecb8" class="">Here is a useful example iterating over the output of <code>find</code> using <code>while read</code>.</p><pre id="fa11bef0-ca80-463f-9307-47664778475a" class="code"><code># This iterates over all directories in the current directory.
+</style></head><body><article id="274d3c68-be9b-42e3-99bb-ab299ddaf0e2" class="page sans"><header><h1 class="page-title">while read</h1><p class="page-description"></p></header><div class="page-body"><p id="8d97960f-7554-44dc-8464-018f939e934a" class=""><code>while read</code> can be used to read a line-by-line output from stdIn.</p><p id="86402514-4a2d-46b2-bec9-024b16e0ecb8" class="">Here is a useful example iterating over the output of <code>find</code> using <code>while read</code>.</p><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="fa11bef0-ca80-463f-9307-47664778475a" class="code"><code class="language-Bash"># This iterates over all directories in the current directory.
 find ./ -maxdepth 1 -mindepth 1 -type d | while read dir
 do
 	echo &quot;dir: $dir&quot;

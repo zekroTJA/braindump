@@ -641,7 +641,7 @@ blockquote {
 .block-color-red_background {
 	background: rgba(253, 235, 236, 1);
 }
-.select-value-color-interactiveBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-uiBlue { background-color: rgba(35, 131, 226, .07); }
 .select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
 .select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
 .select-value-color-green { background-color: rgba(219, 237, 219, 1); }
@@ -673,7 +673,7 @@ blockquote {
 	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
 }
 	
-</style></head><body><article id="beae9d0a-c687-4133-9b19-dd6a8a338aa7" class="page sans"><header><h1 class="page-title">Example Dockerfiles</h1><p class="page-description"></p></header><div class="page-body"><p id="0b07b0b3-75bd-47d4-8f77-63468ab5b5f4" class="">This Dockerfile from <a href="https://github.com/mattn/feed2bsky">https://github.com/mattn/feed2bsky</a> is a good example for building a Go application and deploying it to a <code>scratch</code> docker image.</p><pre id="46413311-5a02-4ac0-9e37-2cb243c51712" class="code"><code># syntax=docker/dockerfile:1.4
+</style></head><body><article id="beae9d0a-c687-4133-9b19-dd6a8a338aa7" class="page sans"><header><h1 class="page-title">Example Dockerfiles</h1><p class="page-description"></p></header><div class="page-body"><p id="0b07b0b3-75bd-47d4-8f77-63468ab5b5f4" class="">This Dockerfile from <a href="https://github.com/mattn/feed2bsky">https://github.com/mattn/feed2bsky</a> is a good example for building a Go application and deploying it to a <code>scratch</code> docker image.</p><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="46413311-5a02-4ac0-9e37-2cb243c51712" class="code"><code class="language-Plain Text"># syntax=docker/dockerfile:1.4
 
 FROM golang:1.20-alpine AS build-dev
 WORKDIR /go/src/app

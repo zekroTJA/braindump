@@ -641,7 +641,7 @@ blockquote {
 .block-color-red_background {
 	background: rgba(253, 235, 236, 1);
 }
-.select-value-color-interactiveBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-uiBlue { background-color: rgba(35, 131, 226, .07); }
 .select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
 .select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
 .select-value-color-green { background-color: rgba(219, 237, 219, 1); }
@@ -673,8 +673,8 @@ blockquote {
 	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
 }
 	
-</style></head><body><article id="5fea92bf-a588-4215-957c-512d414158f5" class="page sans"><header><h1 class="page-title">Context (with …)</h1><p class="page-description"></p></header><div class="page-body"><p id="c6cb0cb8-7a26-43c8-b08e-cece46ed499d" class="">You can use the keyword <code>with</code> to safely acquire and release resources (similar to <code>using</code> in C#, for example).</p><p id="e0acbf81-66ac-4f9d-8234-c899c0fb5423" class="">A very common example for that is opening a file.</p><pre id="9966ff04-72c4-4e62-9423-4a065af3b5af" class="code code-wrap"><code>with open(&quot;hello.txt&quot;) as f:
-	f.readlines()</code></pre><p id="55d0ce9a-20fb-413d-be96-5da437029460" class="">You can implement this behavior by implementing the <code>__enter__</code> and <code>__exit__</code> methods on your class.</p><h1 id="6b74c242-27fa-4f6d-a150-56f124acc6ed" class="">Example</h1><pre id="76ca7a0b-033a-4cb9-914a-efb3d52a8276" class="code code-wrap"><code>class MyClass:
+</style></head><body><article id="5fea92bf-a588-4215-957c-512d414158f5" class="page sans"><header><h1 class="page-title">Context (with …)</h1><p class="page-description"></p></header><div class="page-body"><p id="c6cb0cb8-7a26-43c8-b08e-cece46ed499d" class="">You can use the keyword <code>with</code> to safely acquire and release resources (similar to <code>using</code> in C#, for example).</p><p id="e0acbf81-66ac-4f9d-8234-c899c0fb5423" class="">A very common example for that is opening a file.</p><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="9966ff04-72c4-4e62-9423-4a065af3b5af" class="code code-wrap"><code class="language-Python">with open(&quot;hello.txt&quot;) as f:
+	f.readlines()</code></pre><p id="55d0ce9a-20fb-413d-be96-5da437029460" class="">You can implement this behavior by implementing the <code>__enter__</code> and <code>__exit__</code> methods on your class.</p><h1 id="6b74c242-27fa-4f6d-a150-56f124acc6ed" class="">Example</h1><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="76ca7a0b-033a-4cb9-914a-efb3d52a8276" class="code code-wrap"><code class="language-Python">class MyClass:
     def __init__(self):
         print(&quot;__init__&quot;)
 
@@ -688,7 +688,7 @@ blockquote {
         print(&quot;__del__&quot;)
     
 with MyClass(): 
-    print(&quot;body&quot;)</code></pre><p id="22b960b2-94f8-4919-b49e-08818c387573" class="">Result:</p><pre id="0dcf8d3e-f17e-4e60-a815-9f28501af034" class="code code-wrap"><code>__init__
+    print(&quot;body&quot;)</code></pre><p id="22b960b2-94f8-4919-b49e-08818c387573" class="">Result:</p><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="0dcf8d3e-f17e-4e60-a815-9f28501af034" class="code code-wrap"><code class="language-Python">__init__
 __enter__
 body
 __exit__
