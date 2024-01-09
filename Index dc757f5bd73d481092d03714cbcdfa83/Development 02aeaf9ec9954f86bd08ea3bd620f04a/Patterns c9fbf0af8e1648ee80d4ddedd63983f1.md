@@ -1,0 +1,3 @@
+# Patterns
+
+[Dependency Injection](Patterns%20c9fbf0af8e1648ee80d4ddedd63983f1/Dependency%20Injection%207193bc478cee4995b7538edcfbcc189e.md)

@@ -1,4 +1,4 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Development</title><style>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Dependency Injection</title><style>
 /* cspell:disable-file */
 /* webkit printing magic: print all background colors */
 html {
@@ -673,4 +673,64 @@ blockquote {
 	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
 }
 	
-</style></head><body><article id="02aeaf9e-c995-4f86-bd08-ea3bd620f04a" class="page sans"><header><h1 class="page-title">Development</h1><p class="page-description"></p></header><div class="page-body"><figure id="57ea550e-e03c-4231-a496-757528e38b73" class="link-to-page"><a href="Development%2002aeaf9ec9954f86bd08ea3bd620f04a/DevOps%2057ea550ee03c4231a496757528e38b73.html">DevOps</a></figure><figure id="804cd266-6dec-4445-9d51-f8892be5412e" class="link-to-page"><a href="Development%2002aeaf9ec9954f86bd08ea3bd620f04a/Web%20Development%20804cd2666dec44459d51f8892be5412e.html">Web Development</a></figure><figure id="f264e815-b0b4-4efc-9c8a-8e4bd5e90850" class="link-to-page"><a href="Development%2002aeaf9ec9954f86bd08ea3bd620f04a/Languages%20f264e815b0b44efc9c8a8e4bd5e90850.html">Languages</a></figure><figure id="cb330929-7ee2-44a2-a914-a3e358ef4a33" class="link-to-page"><a href="Development%2002aeaf9ec9954f86bd08ea3bd620f04a/Linux%20cb3309297ee244a2a914a3e358ef4a33.html">Linux</a></figure><figure id="44ac85c1-e084-44a0-950a-73badbd30851" class="link-to-page"><a href="Development%2002aeaf9ec9954f86bd08ea3bd620f04a/Authentication%2044ac85c1e08444a0950a73badbd30851.html">Authentication</a></figure><figure id="2445a249-473f-4e7e-9322-137508116ff8" class="link-to-page"><a href="Development%2002aeaf9ec9954f86bd08ea3bd620f04a/Tools%202445a249473f4e7e9322137508116ff8.html">Tools</a></figure><figure id="adaf0558-9db2-404e-9f24-cabb31fd42c8" class="link-to-page"><a href="Development%2002aeaf9ec9954f86bd08ea3bd620f04a/Vim%20adaf05589db2404e9f24cabb31fd42c8.html">Vim</a></figure><figure id="74efe2b9-d9ba-405c-959f-84154ed6efd0" class="link-to-page"><a href="Development%2002aeaf9ec9954f86bd08ea3bd620f04a/Git%2074efe2b9d9ba405c959f84154ed6efd0.html">Git</a></figure><figure id="8338818b-995d-4ff7-8ae4-e2594453ee91" class="link-to-page"><a href="Development%2002aeaf9ec9954f86bd08ea3bd620f04a/Raspberry%20Pi%208338818b995d4ff78ae4e2594453ee91.html">Raspberry Pi</a></figure><figure id="d8daef29-aa6b-4908-aed5-25f2e1243a6c" class="link-to-page"><a href="Development%2002aeaf9ec9954f86bd08ea3bd620f04a/TUI%20d8daef29aa6b4908aed525f2e1243a6c.html">TUI</a></figure><figure id="c9fbf0af-8e16-48ee-80d4-ddedd63983f1" class="link-to-page"><a href="Development%2002aeaf9ec9954f86bd08ea3bd620f04a/Patterns%20c9fbf0af8e1648ee80d4ddedd63983f1.html">Patterns</a></figure></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
+</style></head><body><article id="7193bc47-8cee-4995-b753-8edcfbcc189e" class="page sans"><header><h1 class="page-title">Dependency Injection</h1><p class="page-description"></p></header><div class="page-body"><h1 id="653e81b7-bd6d-4a00-98af-595dfd223fc6" class="">Types</h1><p id="bec8cd36-b711-4c7b-b9f8-72972ca2ef5f" class="">There are three types of Dependency Injection:</p><ul id="a18d9c4d-9152-440c-81b9-8af4129953c1" class="bulleted-list"><li style="list-style-type:disc">Type 1 IoC (Constructor Injection)</li></ul><ul id="ca8d2567-fc42-4134-8284-9375dd11e4f9" class="bulleted-list"><li style="list-style-type:disc">Type 2 IoC (Setter Injection)</li></ul><ul id="5638152a-e03d-475f-8407-760d7f2e0131" class="bulleted-list"><li style="list-style-type:disc">Type 3 IoC (Interface Injection)</li></ul><h2 id="58243532-391a-46a9-8811-833996dee8fd" class="">Constructor Injection</h2><p id="ad924d49-e51a-43e1-963b-63e8fa175db1" class=""><a href="https://martinfowler.com/articles/injection.html">As Martin Fowler describes constructor injection</a>, there is mostly a sort of assembler or container system involved where you can register implementations used for specific interfaces and where dependencies and dependents are defined.</p><p id="d2f47ee3-f917-4179-88e0-a58812c0c0f7" class="">Then, the actual dependency is passed into a constructor of a class using an interface defining the dependencies behavior.</p><figure id="cf9072d0-4807-4d6e-8bab-2b0fc191944f" class="image" style="text-align:left"><a href="Dependency%20Injection%207193bc478cee4995b7538edcfbcc189e/Untitled.png"><img style="width:446px" src="Dependency%20Injection%207193bc478cee4995b7538edcfbcc189e/Untitled.png"/></a><figcaption><a href="https://martinfowler.com/articles/injection/injector.gif">Source: Martin Fowler</a></figcaption></figure><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="7be91025-3ffd-470e-a64c-d503cfd38cac" class="code"><code class="language-Plain Text">class MovieLister...
+
+  public MovieLister(MovieFinder finder) {
+      this.finder = finder;       
+  }
+
+
+class ColonMovieFinder...
+
+  public ColonMovieFinder(String filename) {
+      this.filename = filename;
+  }
+
+
+private MutablePicoContainer configureContainer() {
+    MutablePicoContainer pico = new DefaultPicoContainer();
+    Parameter[] finderParams =  {new ConstantParameter(&quot;movies1.txt&quot;)};
+    pico.registerComponentImplementation(MovieFinder.class, ColonMovieFinder.class, finderParams);
+    pico.registerComponentImplementation(MovieLister.class);
+    return pico;
+}</code></pre><h2 id="d4ff6009-b7ff-4b77-923a-217b460094c5" class="">Setter Injection</h2><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="b2414b0f-626e-4e2a-8191-af819183d54c" class="code"><code class="language-Go">type MovieFinder struct {
+	lister MovieLister
+}
+
+func (t *MovieFinder) SetLister(lister MovieLister) {
+	t.lister = lister
+}</code></pre><h2 id="35e51b88-ffbe-477f-9dcc-a3a5d1b754f0" class="">Interface Injection</h2><p id="51563645-654e-493f-a3c3-3e5146e2832a" class="">Almost the same as setter injection, but the injector method is specified by an interface.</p><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="3bf600e0-fdae-4d85-95bc-3229dd958582" class="code"><code class="language-Go">public interface ServiceSetter {
+    void setService(Service service);
+}
+
+public class Client implements ServiceSetter {
+    private Service service;
+
+    @Override
+    public void setService(Service service) {
+        if (service == null) {
+            throw new IllegalArgumentException(&quot;service must not be null&quot;);
+        }
+        this.service = service;
+    }
+}
+
+public class ServiceInjector {
+	private final Set&lt;ServiceSetter&gt; clients = new HashSet&lt;&gt;();
+
+	public void inject(ServiceSetter client) {
+		this.clients.add(client);
+		client.setService(new ExampleService());
+	}
+
+	public void switch() {
+		for (Client client : this.clients) {
+			client.setService(new AnotherExampleService());
+		}
+	}
+}
+
+public class ExampleService implements Service {}
+
+public class AnotherExampleService implements Service {}</code></pre><h1 id="0e78b305-5fd9-4dc5-9e34-9cdab44053cb" class="">Resources</h1><h2 id="f1663f8b-cd53-46db-b9d8-f8aab21b27a2" class="">Articles</h2><ul id="66938628-76ac-4cd3-952e-ee716e369e57" class="bulleted-list"><li style="list-style-type:disc"><a href="https://martinfowler.com/articles/injection.html">https://martinfowler.com/articles/injection.html</a></li></ul><ul id="f56aecfb-c9c4-45de-9e31-de464ebf274b" class="bulleted-list"><li style="list-style-type:disc"><a href="https://en.wikipedia.org/wiki/Dependency_injection">https://en.wikipedia.org/wiki/Dependency_injection</a></li></ul><h2 id="12d8fb56-70b9-49a1-930d-a08a36f63ff1" class="">Videos</h2><ul id="89cb9412-fc36-45f6-ba89-848414c7e78d" class="bulleted-list"><li style="list-style-type:disc"><a href="https://youtu.be/J1f5b4vcxCQ">https://youtu.be/J1f5b4vcxCQ</a></li></ul><ul id="4174a2b7-65a3-457f-adfd-5fe42f84ce6f" class="bulleted-list"><li style="list-style-type:disc"><a href="https://youtu.be/yunF2PgJlHU">https://youtu.be/yunF2PgJlHU</a></li></ul><p id="4d1ecc72-745f-477e-a01c-b2a262060b2f" class="">
+</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

@@ -19,3 +19,5 @@
 [Raspberry Pi](Development%2002aeaf9ec9954f86bd08ea3bd620f04a/Raspberry%20Pi%208338818b995d4ff78ae4e2594453ee91.md)
 
 [TUI](Development%2002aeaf9ec9954f86bd08ea3bd620f04a/TUI%20d8daef29aa6b4908aed525f2e1243a6c.md)
+
+[Patterns](Development%2002aeaf9ec9954f86bd08ea3bd620f04a/Patterns%20c9fbf0af8e1648ee80d4ddedd63983f1.md)
