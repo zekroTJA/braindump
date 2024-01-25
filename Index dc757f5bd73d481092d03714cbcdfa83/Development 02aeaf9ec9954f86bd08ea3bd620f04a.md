@@ -21,3 +21,5 @@
 [TUI](Development%2002aeaf9ec9954f86bd08ea3bd620f04a/TUI%20d8daef29aa6b4908aed525f2e1243a6c.md)
 
 [Patterns](Development%2002aeaf9ec9954f86bd08ea3bd620f04a/Patterns%20c9fbf0af8e1648ee80d4ddedd63983f1.md)
+
+[Algorithms](Development%2002aeaf9ec9954f86bd08ea3bd620f04a/Algorithms%20b11b053e695e48ab99fbd71bdcfe9582.md)

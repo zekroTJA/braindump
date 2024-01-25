@@ -1,6 +1,6 @@
 # Coffee Recipes
 
-****TODO****
+*TODO*
 
 # Resources
 
