@@ -23,3 +23,7 @@
 [Patterns](Development%2002aeaf9ec9954f86bd08ea3bd620f04a/Patterns%20c9fbf0af8e1648ee80d4ddedd63983f1.md)
 
 [Algorithms](Development%2002aeaf9ec9954f86bd08ea3bd620f04a/Algorithms%20b11b053e695e48ab99fbd71bdcfe9582.md)
+
+[HTTP](Development%2002aeaf9ec9954f86bd08ea3bd620f04a/HTTP%20fbfe66392eed4deb982f9316710fbb5f.md)
+
+[Virtualization](Development%2002aeaf9ec9954f86bd08ea3bd620f04a/Virtualization%20429c1d9b68944257a6ccd2f1bdaa167d.md)
