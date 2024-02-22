@@ -78,4 +78,5 @@ Display kernel messages. Quite useful for debugging driver or other system issue
 - `-e` / `--reltime`: Relative time in human readable format
 - `-k` / `--kernel`: Show kernel messages
 - `-u` / `--userspace`: Show userspace messages
-- `-c` / `--clear`: Clear messages
+- `-c` / `--clear`: Clear messag
+-
