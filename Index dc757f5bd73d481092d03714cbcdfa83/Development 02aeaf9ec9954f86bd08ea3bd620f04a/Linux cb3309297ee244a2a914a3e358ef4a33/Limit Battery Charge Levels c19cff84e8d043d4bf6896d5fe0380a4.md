@@ -1,6 +1,6 @@
 # Limit Battery Charge Levels
 
-It is possible to set a `start` and `end` value for battery charching percentages to preserve battery longevity.
+It is possible to set a `start` and `end` value for battery charging percentages to preserve battery longevity.
 
 ```
 echo "75" | sudo tee /sys/class/power_supply/BAT0/charge_control_start_threshold
