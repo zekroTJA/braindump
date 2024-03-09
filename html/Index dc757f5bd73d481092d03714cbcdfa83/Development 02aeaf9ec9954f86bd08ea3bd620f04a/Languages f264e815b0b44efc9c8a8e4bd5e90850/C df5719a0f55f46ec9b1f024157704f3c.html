@@ -1,4 +1,4 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>jq</title><style>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>C</title><style>
 /* cspell:disable-file */
 /* webkit printing magic: print all background colors */
 html {
@@ -673,22 +673,5 @@ blockquote {
 	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
 }
 	
-</style></head><body><article id="b514a270-0c54-4ee0-82ec-a23eae1c5bdd" class="page sans"><header><h1 class="page-title">jq</h1><p class="page-description"></p></header><div class="page-body"><p id="79eee431-f466-4030-a66c-f4c8558c1d97" class=""><code>jq</code> is a utility to inspect and filter JSON data.</p><h1 id="ba81c662-3592-4640-9d61-a691173ef9a1" class="">Use Cases</h1><p id="852d8552-f2dc-41a9-947e-1c1d827dd5c6" class="">Filter an object map by key.</p><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="000b1bd6-90eb-4b75-bd57-ae050ee75389" class="code"><code class="language-Bash">echo &#x27;{&quot;foo&quot;: &quot;bar&quot;, &quot;baz&quot;: &quot;fuz&quot;}&#x27; \
-	| jq &#x27;to_entries[] | select ( .key == &quot;foo&quot; )&#x27;
-
-# Outputs:
-# {
-#   &quot;key&quot;: &quot;foo&quot;,
-#   &quot;value&quot;: &quot;bar&quot;
-# }</code></pre><hr id="aa9469c4-33e3-48ee-959f-3dcc7ad52ce3"/><p id="5a3009b5-e451-400f-b440-7003e0c6b244" class="">Combine two JSON Lists</p><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="a38e6eee-fc03-40d2-af32-b86d4c45a4c2" class="code"><code class="language-Bash">echo &#x27;[&quot;foo&quot;, &quot;bar&quot;]&#x27; &gt; a.json
-echo &#x27;[&quot;baz&quot;]&#x27; &gt; b.json
-
-jq &#x27;. + input&#x27; a.json b.json
-
-# Outputs:
-# [
-#   &quot;foo&quot;,
-#   &quot;bar&quot;,
-#   &quot;baz&quot;
-# ]
-</code></pre></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
+</style></head><body><article id="df5719a0-f55f-46ec-9b1f-024157704f3c" class="page sans"><header><h1 class="page-title">C</h1><p class="page-description"></p></header><div class="page-body"><h1 id="a88be31b-0805-4991-ad65-573477563a80" class="">Projects</h1><figure id="344605f5-d337-4dfc-aa5e-894ef2aee1e2" class="link-to-page"><a href="C%20df5719a0f55f46ec9b1f024157704f3c/HTTP%20Server%20in%20C%20344605f5d3374dfcaa5e894ef2aee1e2.html">HTTP Server in C</a></figure><h1 id="e959fc26-5881-4e74-8113-44e2d73bc501" class="">Resources</h1><ul id="aeaf7b9e-1585-46eb-80cd-3c41527ac75f" class="bulleted-list"><li style="list-style-type:disc"><a href="https://learnxinyminutes.com/docs/c/">https://learnxinyminutes.com/docs/c/</a></li></ul><p id="12b1c891-1618-49ae-b6fc-2f114741ec92" class="">
+</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

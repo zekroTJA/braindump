@@ -13,3 +13,5 @@
 [Zig](Languages%20f264e815b0b44efc9c8a8e4bd5e90850/Zig%20c18ea1f9dbe346b8974cae0f176502e8.md)
 
 [OCaml](Languages%20f264e815b0b44efc9c8a8e4bd5e90850/OCaml%207ac4a3d873f1459b8f257ee61536096d.md)
+
+[C](Languages%20f264e815b0b44efc9c8a8e4bd5e90850/C%20df5719a0f55f46ec9b1f024157704f3c.md)
