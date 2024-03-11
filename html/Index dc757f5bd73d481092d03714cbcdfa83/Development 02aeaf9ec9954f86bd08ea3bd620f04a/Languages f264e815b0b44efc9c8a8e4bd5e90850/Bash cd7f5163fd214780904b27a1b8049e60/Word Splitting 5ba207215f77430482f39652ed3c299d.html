@@ -1,4 +1,4 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Colors</title><style>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Word Splitting</title><style>
 /* cspell:disable-file */
 /* webkit printing magic: print all background colors */
 html {
@@ -673,5 +673,15 @@ blockquote {
 	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
 }
 	
-</style></head><body><article id="8ce851bd-86a4-4175-bb51-72d4f2688bf2" class="page sans"><header><h1 class="page-title">Colors</h1><p class="page-description"></p></header><div class="page-body"><h1 id="4f742f63-77d1-448d-bed4-59aabea1fa72" class="">Resources</h1><ul id="b90c4500-ba09-4a49-94b8-3b235c5f7026" class="bulleted-list"><li style="list-style-type:disc"><a href="https://colors.sh/">https://colors.sh/</a></li></ul><ul id="364e5a9d-e162-45d9-8b64-0c3ad3281289" class="bulleted-list"><li style="list-style-type:disc"><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting">https://misc.flogisoft.com/bash/tip_colors_and_formatting</a></li></ul><p id="145e3f11-26e1-4285-915c-d57699325c2b" class="">
+</style></head><body><article id="5ba20721-5f77-4304-82f3-9652ed3c299d" class="page sans"><header><h1 class="page-title">Word Splitting</h1><p class="page-description"></p></header><div class="page-body"><p id="54141183-4275-4a3b-9442-3029fdc1ecae" class="">Word splitting in loops:</p><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="68cf60bb-2ff3-44a0-992c-301bfbc052e3" class="code"><code class="language-Bash">#!/bin/bash
+
+test() {
+    a=(&quot;$@&quot;)
+
+    for v in &quot;${a[@]}&quot;; do
+        echo &quot;v: $v&quot;
+    done
+}
+
+test &quot;hello&quot; &quot;world&quot; &quot;whats up&quot;</code></pre><p id="56867b80-e1bb-4207-9d07-f6ba425fea95" class="">Source: <a href="https://g.co/gemini/share/81abbb16da17">https://g.co/gemini/share/81abbb16da17</a></p><p id="1a9a3888-dc2e-4c9b-b33b-a2995f82e21b" class="">
 </p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
