@@ -1,0 +1,1 @@
+This is a general category compiling lists of stuff I’ve learned over the years. Just to have a sort of record track of stuff I have went through or worked with and stuff I still want to learn.

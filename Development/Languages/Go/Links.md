@@ -1,0 +1,1 @@
+- GOOS & GOARCH Combinations: [https://gist.github.com/zekroTJA/4fa6c30606d9e702ccc3b84433dbf131](https://gist.github.com/zekroTJA/4fa6c30606d9e702ccc3b84433dbf131)

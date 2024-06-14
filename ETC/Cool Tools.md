@@ -1,0 +1,2 @@
+- Size of countries on a map where you can drag and drop them over another to compare their true sizes: [](https://www.thetruesize.com/)[https://www.thetruesize.com](https://www.thetruesize.com)
+- Simple website to create date / appointment polls like doodle which does not suck as much: [](https://app.rallly.co/)[https://app.rallly.co](https://app.rallly.co)

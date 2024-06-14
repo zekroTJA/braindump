@@ -1,0 +1,1 @@
+- Magic Zoom: [https://ko-fi.com/s/ed372d12c6](https://ko-fi.com/s/ed372d12c6)
