@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Readme.md",
+                "file": "Development/Tools/rg (ripgrep).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Readme.md",
+                "file": "Development/Tools/rg (ripgrep).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Readme.md",
+                "file": "Development/Tools/rg (ripgrep).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Readme.md"
+                "file": "Development/Tools/rg (ripgrep).md"
               }
             }
           }
@@ -148,9 +148,22 @@
   },
   "active": "6beacd7c2e37fcbb",
   "lastOpenFiles": [
-    "Development/Virtualization/KVM and QEMU.md",
+    "Development/Languages/Bash/Parameter Expansion.md",
+    "Development/Languages/Bash/Word Splitting.md",
+    "Development/Languages/Bash/while read.md",
     "Development/Languages/Bash/Tuple and Parameter Splitting.md",
+    "Development/Languages/Bash/Switch Case.md",
+    "Development/Languages/Bash/StdOut and StdIn Piping.md",
+    "Development/Languages/Bash/Index.md",
+    "Development/Languages/Bash/Function Returns.md",
+    "Development/Languages/Bash/Conditions.md",
+    "Development/Languages/Bash/Colors.md",
+    "Development/Linux/Terminal/Hacks.md",
+    "Development/Linux/zsh.md",
+    "Development/Tools/rg (ripgrep).md",
+    "Development/Linux/Tools/find.md",
     "Readme.md",
+    "Development/Virtualization/KVM and QEMU.md",
     "Cooking/Coffee Recipes.md",
     "Video Production/Audio/IMG_0763.jpeg",
     "Video Production/Audio/Audio Setup.md",
@@ -168,24 +181,11 @@
     "Video Production/FFMPEG/Cheatsheet.md",
     "Video Production/DaVinci Resolve/Addons.md",
     "Video Production/FFMPEG",
-    "Video Production/DaVinci Resolve/Index.md",
     "Video Production/DaVinci Resolve",
-    "Data Science/Index.md",
     "Video Production",
-    "Note Taking/Index.md",
     "Data Science",
-    "Design/Color Palettes.md",
     "Note Taking",
-    "Design/Icons.md",
-    "Design/Fonts.md",
-    "Development/HTTP/Index.md",
-    "Development/Patterns/Dependency Injection.md",
-    "Development/Untitled.md",
     "Development/Patterns/DI_Martin_Fowler.png",
-    "Untitled.canvas",
-    "Development/Languages/Bash/Colors.md",
-    "Development/Raspberry Pi/NAS.md",
-    "Development/Tools/git.md",
-    "Development/Tools/vim.md"
+    "Untitled.canvas"
   ]
 }
