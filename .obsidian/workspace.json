@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/Tools/rg (ripgrep).md",
+                "file": "Development/Languages/Bash/Colors.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "color",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Development/Tools/rg (ripgrep).md",
+                "file": "Development/Languages/Bash/Colors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Development/Tools/rg (ripgrep).md",
+                "file": "Development/Languages/Bash/Colors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Development/Tools/rg (ripgrep).md"
+                "file": "Development/Languages/Bash/Colors.md"
               }
             }
           }
@@ -148,6 +149,7 @@
   },
   "active": "6beacd7c2e37fcbb",
   "lastOpenFiles": [
+    "Development/Tools/rg (ripgrep).md",
     "Development/Languages/Bash/Parameter Expansion.md",
     "Development/Languages/Bash/Word Splitting.md",
     "Development/Languages/Bash/while read.md",
@@ -160,7 +162,6 @@
     "Development/Languages/Bash/Colors.md",
     "Development/Linux/Terminal/Hacks.md",
     "Development/Linux/zsh.md",
-    "Development/Tools/rg (ripgrep).md",
     "Development/Linux/Tools/find.md",
     "Readme.md",
     "Development/Virtualization/KVM and QEMU.md",
