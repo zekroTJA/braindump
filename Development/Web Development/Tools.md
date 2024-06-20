@@ -8,3 +8,12 @@ With `create-vite`, you can kick start a new project either in Vanilla, Vue, Rea
 
 - Project: [https://github.com/vitejs/vite](https://github.com/vitejs/vite)
 - Docs: [https://v3.vitejs.dev/](https://v3.vitejs.dev/)
+
+# [httpbin](https://httpbin.org)
+
+An HTTP replay and debugging server.
+
+## Links
+
+- Project: https://github.com/postmanlabs/httpbin
+- Docs: https://httpbin.org
