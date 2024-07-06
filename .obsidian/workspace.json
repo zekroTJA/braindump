@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/macOS/Awesome macOS Apps.md",
+                "file": "Development/Languages/Go/Channels.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "icons",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5
+    "width": 281.5
   },
   "right": {
     "id": "d0084626ba0ae6a9",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Development/macOS/Awesome macOS Apps.md",
+                "file": "Development/Languages/Go/Channels.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Development/macOS/Awesome macOS Apps.md",
+                "file": "Development/Languages/Go/Channels.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Development/macOS/Awesome macOS Apps.md"
+                "file": "Development/Languages/Go/Channels.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "6beacd7c2e37fcbb",
   "lastOpenFiles": [
-    "Readme.md",
+    "Design/Icons.md",
+    "Development/Languages/Go/Channels.md",
     "Development/macOS/Awesome macOS Apps.md",
+    "Readme.md",
     "Development/macOS",
     "LICENSE",
     "Development/Tools/rg (ripgrep).md",
@@ -178,14 +180,12 @@
     "Video Production",
     "Note Taking/Index.md",
     "Design/Color Palettes.md",
-    "Design/Icons.md",
     "Design/Fonts.md",
     "Development/HTTP/Index.md",
     "Development/Patterns/Dependency Injection.md",
     "Development/Untitled.md",
     "Development/Patterns/DI_Martin_Fowler.png",
     "Untitled.canvas",
-    "Development/Languages/Bash/Colors.md",
-    "Development/Raspberry Pi/NAS.md"
+    "Development/Languages/Bash/Colors.md"
   ]
 }
