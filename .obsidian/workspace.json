@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/Languages/Go/Channels.md",
+                "file": "Development/Patterns/Test Driven Development (TDD).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Development/Languages/Go/Channels.md",
+                "file": "Development/Patterns/Test Driven Development (TDD).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Development/Languages/Go/Channels.md",
+                "file": "Development/Patterns/Test Driven Development (TDD).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Development/Languages/Go/Channels.md"
+                "file": "Development/Patterns/Test Driven Development (TDD).md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "6beacd7c2e37fcbb",
   "lastOpenFiles": [
-    "Design/Icons.md",
+    "Development/Patterns/Dependency Injection.md",
+    "Development/Patterns/Test Driven Development (TDD).md",
     "Development/Languages/Go/Channels.md",
+    "Design/Icons.md",
     "Development/macOS/Awesome macOS Apps.md",
     "Readme.md",
     "Development/macOS",
@@ -182,10 +184,8 @@
     "Design/Color Palettes.md",
     "Design/Fonts.md",
     "Development/HTTP/Index.md",
-    "Development/Patterns/Dependency Injection.md",
     "Development/Untitled.md",
     "Development/Patterns/DI_Martin_Fowler.png",
-    "Untitled.canvas",
-    "Development/Languages/Bash/Colors.md"
+    "Untitled.canvas"
   ]
 }
