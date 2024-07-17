@@ -2,7 +2,7 @@ Some commands and command options that I use infrequently enough so I forget the
 
 # Shells
 
-## `[bash](<https://dashdash.io/1/bash>)`
+## [`bash`](<https://dashdash.io/1/bash>)
 
 GNU Bourne-Again SHell.
 
@@ -14,7 +14,7 @@ GNU Bourne-Again SHell.
 
 # Utilities
 
-## `[curl](<https://dashdash.io/1/curl>)`
+## [`curl`](<https://dashdash.io/1/curl>)
 
 CLI utility to do request and HTTP stuff and much more.
 
@@ -26,7 +26,8 @@ Save the response status code to a variable.
 status_code=$(curl -Lo "$target" "$url" -w "%{http_code}")
 ```
 
-## `[ls](<https://dashdash.io/1/ls>)`
+
+## [`ls`](<https://dashdash.io/1/ls>)
 
 List directories and their contents.
 
@@ -37,7 +38,7 @@ List directories and their contents.
 
 # Hardware
 
-## `[lsblk](<https://dashdash.io/8/lsblk>)`
+## [`lsblk`](<https://dashdash.io/8/lsblk>)
 
 List drives and partitions.
 
@@ -47,7 +48,7 @@ List drives and partitions.
 
 # System
 
-## `[journalctl](<https://dashdash.io/1/journalctl>)`
+## [`journalctl`](<https://dashdash.io/1/journalctl>)
 
 Query the systemd and kernel journal.
 
@@ -65,7 +66,7 @@ journalctl -b -1
 - `-b (<offset>)`: Show messages from boot session
 - `-f`: Follow _(like tail -f)_
 
-## `[dmesg](<https://dashdash.io/1/dmesg>)`
+## [`dmesg`](<https://dashdash.io/1/dmesg>)
 
 Display kernel messages. Quite useful for debugging driver or other system issues.
 
