@@ -33,6 +33,10 @@ Alias=sshd.service
 
 - `WorkingDirectory=` - Specify the working directory
 
+# User Services
+
+- https://www.baeldung.com/linux/systemd-create-user-services
+
 ## Resources
 
 - [https://www.freedesktop.org/software/systemd/man/systemd.unit.html](https://www.freedesktop.org/software/systemd/man/systemd.unit.html)
