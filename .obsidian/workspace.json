@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path: Development/DevOps/Docker  ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,11 +65,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 281.5
+    "width": 351.5
   },
   "right": {
     "id": "d0084626ba0ae6a9",
@@ -146,7 +147,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6beacd7c2e37fcbb",
+  "active": "645acf7c16b300a4",
   "lastOpenFiles": [
     "Development/Languages/Go/Snippets.md",
     "Development/DevOps/Docker/Readme.md",
