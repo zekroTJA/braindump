@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/DevOps/Docker/Guides.md",
+                "file": "Video Production/FFMPEG/FFMPEG Cheatsheet.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ffmpeg",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Development/DevOps/Docker/Guides.md",
+                "file": "Video Production/FFMPEG/FFMPEG Cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Development/DevOps/Docker/Guides.md",
+                "file": "Video Production/FFMPEG/FFMPEG Cheatsheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Development/DevOps/Docker/Guides.md"
+                "file": "Video Production/FFMPEG/FFMPEG Cheatsheet.md"
               }
             }
           }
@@ -139,6 +138,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -147,11 +147,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "645acf7c16b300a4",
+  "active": "6beacd7c2e37fcbb",
   "lastOpenFiles": [
+    "Development/DevOps/Docker/Guides.md",
     "Development/Languages/Go/Snippets.md",
     "Development/DevOps/Docker/Readme.md",
-    "Development/DevOps/Docker/Guides.md",
     "Development/DevOps/Docker/Dockerfile.md",
     "Development/DevOps/Docker/Daemon Configuration.md",
     "Development/Linux/systemd.md",
@@ -180,7 +180,7 @@
     "Video Production/FFMPEG/Cut Videos.md",
     "Video Production/Audio",
     "Video Production/Untitled.md",
-    "Video Production/FFMPEG/Cheatsheet.md",
+    "Video Production/FFMPEG/FFMPEG Cheatsheet.md",
     "Video Production/DaVinci Resolve/Addons.md",
     "Video Production/FFMPEG",
     "Video Production/DaVinci Resolve/Index.md",

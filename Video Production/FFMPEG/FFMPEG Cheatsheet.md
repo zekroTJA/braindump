@@ -79,3 +79,11 @@ ffmpeg -i ./oof.mp3 -af loudnorm=I=-16:TP=-0.3:LRA=11 ./normalized/oof.mp3
 ```
 ffplay -fflags nobuffer -listen 1935 rtmp://0.0.0.0
 ```
+
+## Scale Image
+
+```
+ffmpeg -i input.jpg -vf scale=320:-1 output_320.png
+```
+
+*[Source](https://trac.ffmpeg.org/wiki/Scaling)*
