@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c26a2663c8071881",
+        "id": "b578b98a6a68a41c",
         "type": "tabs",
         "children": [
           {
-            "id": "6beacd7c2e37fcbb",
+            "id": "c393a58582d5ee85",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/Languages/Rust/rayon.md",
+                "file": "Development/Linux/Guides/Display Battery State.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "charge",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Development/Languages/Rust/rayon.md",
+                "file": "Development/Linux/Guides/Display Battery State.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Development/Languages/Rust/rayon.md",
+                "file": "Development/Linux/Guides/Display Battery State.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Development/Languages/Rust/rayon.md"
+                "file": "Development/Linux/Guides/Display Battery State.md"
               }
             }
           }
@@ -146,45 +146,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6beacd7c2e37fcbb",
+  "active": "4ad11266401639ad",
   "lastOpenFiles": [
-    "Development/macOS/Awesome macOS Apps.md",
-    "Development/Languages/Rust/rayon.md",
     "Video Production/FFMPEG/FFMPEG Cheatsheet.md",
-    "Development/Patterns/Test Driven Development (TDD).md",
-    "Development/Languages/Go/Snippets.md",
-    "Development/Languages/Go/Channels.md",
+    "Development/Languages/Rust/rayon.md",
     "Development/DevOps/Docker/Guides.md",
-    "Readme.md",
-    "Development/macOS",
-    "LICENSE",
+    "Development/Linux/Guides/Limit Battery Charge Levels.md",
+    "Development/Linux/Guides/Display Battery State.md",
+    "Development/macOS/Awesome macOS Apps.md",
     "Development/Tools/rg (ripgrep).md",
-    "Development/Virtualization/KVM and QEMU.md",
-    "Development/Languages/Bash/Tuple and Parameter Splitting.md",
-    "Cooking/Coffee Recipes.md",
-    "Video Production/Audio/IMG_0763.jpeg",
-    "Video Production/Audio/Audio Setup.md",
+    "Development/Languages/Rust/Binary Size Optimizations.md",
+    "Development/Languages/Rust/Videos.md",
+    "Development/Languages/Rust/Macros.md",
+    "Development/Languages/Rust/Clippy Settings.md",
+    "Development/Languages/Rust/Background Knowledge.md",
+    "Development/Languages/Bash/Parameter Expansion.md",
+    "Development/Linux/Tools/Index.md",
+    "Development/Languages/Go/Snippets.md",
+    "Development/macOS",
+    "Development/Patterns/Test Driven Development (TDD).md",
+    "Development/Languages/Go/Channels.md",
+    "Development/Languages/Go/Custom Formatting.md",
+    "Development/Languages/Go/Links.md",
+    "Development/Languages/Go/Index.md",
     "Photography/Resources.md",
+    "Development/Web Development/Tools.md",
+    "LICENSE",
+    "Development/Tools/httpbin.md",
+    "Development/Languages/Bash/Colors.md",
+    "Development/Languages/Bash/Word Splitting.md",
+    "Development/Languages/Bash/while read.md",
+    "Video Production/Audio/IMG_0763.jpeg",
     "Photography",
-    "ETC/Cool Tools.md",
     "Cooking",
-    "Journey/2023.md",
     "ETC",
-    "Journey/Index.md",
     "Journey",
-    "Video Production/FFMPEG/Cut Videos.md",
     "Video Production/Audio",
-    "Video Production/Untitled.md",
-    "Video Production/FFMPEG/Cheatsheet.md",
-    "Video Production/DaVinci Resolve/Addons.md",
     "Video Production/FFMPEG",
-    "Video Production/DaVinci Resolve/Index.md",
     "Video Production/DaVinci Resolve",
-    "Data Science/Index.md",
     "Video Production",
-    "Note Taking/Index.md",
-    "Design/Color Palettes.md",
-    "Design/Icons.md",
     "Development/Patterns/DI_Martin_Fowler.png",
     "Untitled.canvas"
   ]
