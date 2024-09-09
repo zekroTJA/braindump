@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/Patterns/Algebraic Data Types.md",
+                "file": "Development/Linux/ssh.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:Development/Linux  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Development/Patterns/Algebraic Data Types.md",
+                "file": "Development/Linux/ssh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Development/Patterns/Algebraic Data Types.md",
+                "file": "Development/Linux/ssh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Development/Patterns/Algebraic Data Types.md"
+                "file": "Development/Linux/ssh.md"
               }
             }
           }
@@ -149,8 +149,11 @@
   },
   "active": "c393a58582d5ee85",
   "lastOpenFiles": [
-    "Development/Linux/Guides/Display Battery State.md",
+    "Development/Linux/Guides/Create Directory with Cleanup.md",
+    "Development/Linux/ssh.md",
+    "Development/Linux/Terminal/Hacks.md",
     "Development/Patterns/Algebraic Data Types.md",
+    "Development/Linux/Guides/Display Battery State.md",
     "Development/Linux/Tools/Index.md",
     "Video Production/FFMPEG/FFMPEG Cheatsheet.md",
     "Development/Languages/Rust/rayon.md",
@@ -174,9 +177,6 @@
     "Photography/Resources.md",
     "Development/Web Development/Tools.md",
     "LICENSE",
-    "Development/Tools/httpbin.md",
-    "Development/Languages/Bash/Colors.md",
-    "Development/Languages/Bash/Word Splitting.md",
     "Video Production/Audio/IMG_0763.jpeg",
     "Photography",
     "Cooking",
