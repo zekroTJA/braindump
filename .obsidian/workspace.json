@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/Linux/ssh.md",
+                "file": "Development/DevOps/Infrastructure as Code (IaC)/Index.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5
+    "width": 316.5
   },
   "right": {
     "id": "d0084626ba0ae6a9",
@@ -85,14 +85,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Development/Linux/ssh.md",
+                "file": "Development/DevOps/Infrastructure as Code (IaC)/Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -102,9 +102,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Development/Linux/ssh.md",
+                "file": "Development/DevOps/Infrastructure as Code (IaC)/Index.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Development/Linux/ssh.md"
+                "file": "Development/DevOps/Infrastructure as Code (IaC)/Index.md"
               }
             }
           }
@@ -133,7 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.5,
+    "width": 317.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -149,33 +149,35 @@
   },
   "active": "c393a58582d5ee85",
   "lastOpenFiles": [
-    "Development/Linux/Guides/Create Directory with Cleanup.md",
-    "Development/Linux/ssh.md",
-    "Development/Linux/Terminal/Hacks.md",
-    "Development/Patterns/Algebraic Data Types.md",
-    "Development/Linux/Guides/Display Battery State.md",
-    "Development/Linux/Tools/Index.md",
-    "Video Production/FFMPEG/FFMPEG Cheatsheet.md",
-    "Development/Languages/Rust/rayon.md",
-    "Development/DevOps/Docker/Guides.md",
-    "Development/Linux/Guides/Limit Battery Charge Levels.md",
-    "Development/macOS/Awesome macOS Apps.md",
-    "Development/Tools/rg (ripgrep).md",
-    "Development/Languages/Rust/Binary Size Optimizations.md",
-    "Development/Languages/Rust/Videos.md",
-    "Development/Languages/Rust/Macros.md",
-    "Development/Languages/Rust/Clippy Settings.md",
-    "Development/Languages/Rust/Background Knowledge.md",
-    "Development/Languages/Bash/Parameter Expansion.md",
-    "Development/Languages/Go/Snippets.md",
-    "Development/macOS",
-    "Development/Patterns/Test Driven Development (TDD).md",
-    "Development/Languages/Go/Channels.md",
-    "Development/Languages/Go/Custom Formatting.md",
-    "Development/Languages/Go/Links.md",
-    "Development/Languages/Go/Index.md",
+    "Development/DevOps/Infrastructure as Code (IaC)/OpenTofu.md",
+    "Development/DevOps/Infrastructure as Code (IaC)/Index.md",
+    "Readme.md",
+    "OpenTofu (Terraform).md",
     "Photography/Resources.md",
+    "Note Taking/Index.md",
+    "Journey/Index.md",
+    "Journey/2023.md",
+    "ETC/Cool Tools.md",
+    "Development/Web Tools.md",
     "Development/Web Development/Tools.md",
+    "Development/Web Development/Libraries.md",
+    "Development/Web Development/React/Index.md",
+    "Development/Virtualization/KVM and QEMU.md",
+    "Development/Tools/vim.md",
+    "Development/Tools/tmux.md",
+    "Development/Tools/rg (ripgrep).md",
+    "Development/Tools/git.md",
+    "Development/Raspberry Pi/NAS.md",
+    "Development/Patterns/Test Driven Development (TDD).md",
+    "Development/Patterns/DI_Martin_Fowler.png",
+    "Development/Patterns/Dependency Injection.md",
+    "Development/Patterns/Algebraic Data Types.md",
+    "Development/macOS/Awesome macOS Apps.md",
+    "Development/Linux/zsh.md",
+    "Development/Linux/systemd.md",
+    "Development/Linux/ssh.md",
+    "Development/DevOps/Infrastructure as Code (IaC)",
+    "Development/macOS",
     "LICENSE",
     "Video Production/Audio/IMG_0763.jpeg",
     "Photography",
@@ -185,8 +187,6 @@
     "Video Production/Audio",
     "Video Production/FFMPEG",
     "Video Production/DaVinci Resolve",
-    "Video Production",
-    "Development/Patterns/DI_Martin_Fowler.png",
     "Untitled.canvas"
   ]
 }

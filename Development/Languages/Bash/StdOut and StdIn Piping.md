@@ -7,3 +7,6 @@ Pipe both StdErr and StdOut
 ```bash
 find doesnotexist > /dev/null 2>&1
 ```
+
+---
+see [[find]]

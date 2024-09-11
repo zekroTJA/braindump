@@ -7,6 +7,10 @@ Here is a useful example iterating over the output of `find` using `while read`.
 find ./ -maxdepth 1 -mindepth 1 -type d | while read dir
 do
 	echo "dir: $dir"
-  ls -1 | wc -l
+    ls -1 | wc -l
 done
 ```
+
+---
+
+see [[find]]

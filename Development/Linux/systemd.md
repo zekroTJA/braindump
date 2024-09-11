@@ -44,3 +44,7 @@ Alias=sshd.service
 - [https://www.freedesktop.org/software/systemd/man/systemd.exec.html](https://www.freedesktop.org/software/systemd/man/systemd.exec.html)
 - [https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files](https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files)
 - [https://www.howtogeek.com/687970/how-to-run-a-linux-program-at-startup-with-systemd/](https://www.howtogeek.com/687970/how-to-run-a-linux-program-at-startup-with-systemd/)
+
+---
+
+see [[ssh]]
