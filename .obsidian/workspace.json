@@ -8,18 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c393a58582d5ee85",
+            "id": "cacbbf90c4768897",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/DevOps/Infrastructure as Code (IaC)/Index.md",
+                "file": "Development/DevOps/Infrastructure as Code (IaC)/OpenTofu.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "76c4418ee8bd6888",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Development/DevOps/Infrastructure as Code (IaC)/OpenTofu.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:Development/Linux  ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Development/DevOps/Infrastructure as Code (IaC)/Index.md",
+                "file": "Development/DevOps/Infrastructure as Code (IaC)/OpenTofu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Development/DevOps/Infrastructure as Code (IaC)/Index.md",
+                "file": "Development/DevOps/Infrastructure as Code (IaC)/OpenTofu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Development/DevOps/Infrastructure as Code (IaC)/Index.md"
+                "file": "Development/DevOps/Infrastructure as Code (IaC)/OpenTofu.md"
               }
             }
           }
@@ -147,10 +160,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c393a58582d5ee85",
+  "active": "76c4418ee8bd6888",
   "lastOpenFiles": [
+    "Development/DevOps/CloudInit.md",
     "Development/DevOps/Infrastructure as Code (IaC)/OpenTofu.md",
+    "Development/DevOps/Infrastructure as Code (IaC)/Pulumi.md",
     "Development/DevOps/Infrastructure as Code (IaC)/Index.md",
+    "Python.md",
     "Readme.md",
     "OpenTofu (Terraform).md",
     "Photography/Resources.md",
@@ -173,9 +189,6 @@
     "Development/Patterns/Dependency Injection.md",
     "Development/Patterns/Algebraic Data Types.md",
     "Development/macOS/Awesome macOS Apps.md",
-    "Development/Linux/zsh.md",
-    "Development/Linux/systemd.md",
-    "Development/Linux/ssh.md",
     "Development/DevOps/Infrastructure as Code (IaC)",
     "Development/macOS",
     "LICENSE",
