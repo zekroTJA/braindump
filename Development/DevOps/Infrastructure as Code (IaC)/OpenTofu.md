@@ -1,6 +1,16 @@
-# AWS with [[CloudInit]]
+# HCL Language
 
-See: https://developer.hashicorp.com/terraform/tutorials/provision/cloud-init
+Reference: 
+- [OpenTofu Language Reference](https://opentofu.org/docs/language/)
+- [Terraform Language Reference](https://developer.hashicorp.com/terraform/language)
+
+# AWS
+
+> [Documentation for AWS Terraform Provider](https://search.opentofu.org/provider/opentofu/aws/latest)
+
+## [[CloudInit]]
+
+> [Documentation on Cloud Init with Terraform](https://developer.hashicorp.com/terraform/tutorials/provision/cloud-init)
 
 Basic example of an EC2 instance with Security Group and CloudInit.
 
@@ -77,9 +87,7 @@ users:
     lock_passwd: false
     passwd: *****
     ssh_authorized_keys:
-      - ssh-ed25519
-        AAAAC3NzaC1lZDI1NTE5AAAAIEyCJYZIPT9Og6oRDiuEwN9XUdrqRYCvsIzcW+BLngZw
-        r.hoffmann@intern.b12-group.de@LPTP-108
+      - ssh-ed25519 ...
 package_update: true
 package_upgrade: true
 package_reboot_if_required: true
@@ -125,7 +133,36 @@ runcmd:
 
 ```
 
+# Read and Write JSON data
+
+Reading data from a JSON file is done as following.
+
+```hcl
+locals {
+	instances = jsondecode(file("./instances.json"))
+}
+```
+
+Output can be written to a JSON file using the [`opentofu/local`](https://search.opentofu.org/provider/opentofu/local/latest) provider.
+
+```hcl
+resource "local_file" "deployed_instances" {
+  filename = "deployed_instances.json"
+  content = jsonencode({
+    for instance in aws_instance.web_server :
+    instance.tags.Key => {
+      "id"            = instance.id
+      "name"          = instance.tags.Name
+      "public_ip"     = instance.public_ip
+      "public_dns"    = instance.public_dns
+    }
+  })
+}
+```
+
 # Resources
 
 - https://youtu.be/Q4n5VUNo-l4
 - https://github.com/hashicorp/learn-terraform-provisioning
+- https://g.co/gemini/share/68b50a6bb8f2
+- https://stackoverflow.com/questions/49393405/terraform-how-to-attach-volumes-from-previous-ec2-instance

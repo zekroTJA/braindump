@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "76c4418ee8bd6888",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Development/DevOps/Infrastructure as Code (IaC)/OpenTofu.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -160,10 +147,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "76c4418ee8bd6888",
+  "active": "cacbbf90c4768897",
   "lastOpenFiles": [
-    "Development/DevOps/CloudInit.md",
     "Development/DevOps/Infrastructure as Code (IaC)/OpenTofu.md",
+    "Development/DevOps/CloudInit.md",
     "Development/DevOps/Infrastructure as Code (IaC)/Pulumi.md",
     "Development/DevOps/Infrastructure as Code (IaC)/Index.md",
     "Python.md",
