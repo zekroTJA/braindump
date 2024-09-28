@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/Linux/Tools/sed.md",
+                "file": "Development/Pentest/nmap.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Development/Linux/Tools/sed.md",
+                "file": "Development/Pentest/nmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Development/Linux/Tools/sed.md",
+                "file": "Development/Pentest/nmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Development/Linux/Tools/sed.md"
+                "file": "Development/Pentest/nmap.md"
               }
             }
           }
@@ -149,6 +149,9 @@
   },
   "active": "cacbbf90c4768897",
   "lastOpenFiles": [
+    "Development/Linux/Tools/sed.md",
+    "Development/Pentest/nmap.md",
+    "Development/Pentest",
     "Development/Tools/rg (ripgrep).md",
     "Development/DevOps/Infrastructure as Code (IaC)/Index.md",
     "Development/DevOps/Infrastructure as Code (IaC)/OpenTofu.md",
@@ -174,8 +177,6 @@
     "Development/Patterns/Test Driven Development (TDD).md",
     "Development/Patterns/DI_Martin_Fowler.png",
     "Development/Patterns/Dependency Injection.md",
-    "Development/Patterns/Algebraic Data Types.md",
-    "Development/macOS/Awesome macOS Apps.md",
     "Development/DevOps/Infrastructure as Code (IaC)",
     "Development/macOS",
     "LICENSE",
@@ -186,7 +187,6 @@
     "Journey",
     "Video Production/Audio",
     "Video Production/FFMPEG",
-    "Video Production/DaVinci Resolve",
     "Untitled.canvas"
   ]
 }
