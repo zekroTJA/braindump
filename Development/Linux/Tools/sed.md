@@ -20,6 +20,12 @@
 sed -i 's/^M$//' file.txt
 ```
 
+### Remove ANSI Color Codes
+
+```bash
+sed -r "s/\x1B\[(([0-9]{1,2})?(;)?([0-9]{1,2})?)?[m,K,H,f,J]//g" file.txt
+```
+
 # Resources
 
 - [https://dashdash.io/1/sed](https://dashdash.io/1/sed)
