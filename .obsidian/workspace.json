@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/Linux/Tools/jq.md",
+                "file": "Development/DevOps/AWS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Development/Linux/Tools/jq.md",
+                "file": "Development/DevOps/AWS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Development/Linux/Tools/jq.md",
+                "file": "Development/DevOps/AWS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Development/Linux/Tools/jq.md"
+                "file": "Development/DevOps/AWS.md"
               }
             }
           }
@@ -149,11 +149,13 @@
   },
   "active": "cacbbf90c4768897",
   "lastOpenFiles": [
+    "Development/DevOps/Infrastructure as Code (IaC)/Index.md",
+    "Development/DevOps/AWS.md",
+    "Development/Linux/Tools/jq.md",
     "Development/Pentest/nmap.md",
     "Development/Linux/Tools/sed.md",
     "Development/Pentest",
     "Development/Tools/rg (ripgrep).md",
-    "Development/DevOps/Infrastructure as Code (IaC)/Index.md",
     "Development/DevOps/Infrastructure as Code (IaC)/OpenTofu.md",
     "Development/DevOps/CloudInit.md",
     "Development/DevOps/Infrastructure as Code (IaC)/Pulumi.md",
@@ -174,9 +176,7 @@
     "Development/Tools/tmux.md",
     "Development/Tools/git.md",
     "Development/Raspberry Pi/NAS.md",
-    "Development/Patterns/Test Driven Development (TDD).md",
     "Development/Patterns/DI_Martin_Fowler.png",
-    "Development/Patterns/Dependency Injection.md",
     "Development/DevOps/Infrastructure as Code (IaC)",
     "Development/macOS",
     "LICENSE",
