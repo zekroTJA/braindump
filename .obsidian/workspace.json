@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/DevOps/AWS.md",
+                "file": "Development/Linux/Tools/awk.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Development/DevOps/AWS.md",
+                "file": "Development/Linux/Tools/awk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Development/DevOps/AWS.md",
+                "file": "Development/Linux/Tools/awk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Development/DevOps/AWS.md"
+                "file": "Development/Linux/Tools/awk.md"
               }
             }
           }
@@ -149,9 +149,10 @@
   },
   "active": "cacbbf90c4768897",
   "lastOpenFiles": [
-    "Development/DevOps/Infrastructure as Code (IaC)/Index.md",
-    "Development/DevOps/AWS.md",
     "Development/Linux/Tools/jq.md",
+    "Development/Linux/Tools/awk.md",
+    "Development/DevOps/AWS.md",
+    "Development/DevOps/Infrastructure as Code (IaC)/Index.md",
     "Development/Pentest/nmap.md",
     "Development/Linux/Tools/sed.md",
     "Development/Pentest",
@@ -175,7 +176,6 @@
     "Development/Tools/vim.md",
     "Development/Tools/tmux.md",
     "Development/Tools/git.md",
-    "Development/Raspberry Pi/NAS.md",
     "Development/Patterns/DI_Martin_Fowler.png",
     "Development/DevOps/Infrastructure as Code (IaC)",
     "Development/macOS",
