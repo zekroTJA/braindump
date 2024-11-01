@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/Linux/Tools/awk.md",
+                "file": "Development/Languages/Rust/Encryption.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "bash",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Development/Linux/Tools/awk.md",
+                "file": "Development/Languages/Rust/Encryption.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Development/Linux/Tools/awk.md",
+                "file": "Development/Languages/Rust/Encryption.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Development/Linux/Tools/awk.md"
+                "file": "Development/Languages/Rust/Encryption.md"
               }
             }
           }
@@ -149,8 +149,16 @@
   },
   "active": "cacbbf90c4768897",
   "lastOpenFiles": [
-    "Development/Linux/Tools/jq.md",
+    "Development/Languages/Rust/rayon.md",
+    "Development/Languages/Rust/Encryption.md",
+    "Development/Languages/Bash/Tuple and Parameter Splitting.md",
+    "Development/Languages/Bash/while read.md",
+    "Development/Languages/Bash/Word Splitting.md",
+    "Development/Languages/Bash/Conditions.md",
+    "Development/Languages/Bash/Colors.md",
+    "Development/Languages/Bash/Index.md",
     "Development/Linux/Tools/awk.md",
+    "Development/Linux/Tools/jq.md",
     "Development/DevOps/AWS.md",
     "Development/DevOps/Infrastructure as Code (IaC)/Index.md",
     "Development/Pentest/nmap.md",
@@ -168,14 +176,6 @@
     "Journey/Index.md",
     "Journey/2023.md",
     "ETC/Cool Tools.md",
-    "Development/Web Tools.md",
-    "Development/Web Development/Tools.md",
-    "Development/Web Development/Libraries.md",
-    "Development/Web Development/React/Index.md",
-    "Development/Virtualization/KVM and QEMU.md",
-    "Development/Tools/vim.md",
-    "Development/Tools/tmux.md",
-    "Development/Tools/git.md",
     "Development/Patterns/DI_Martin_Fowler.png",
     "Development/DevOps/Infrastructure as Code (IaC)",
     "Development/macOS",
