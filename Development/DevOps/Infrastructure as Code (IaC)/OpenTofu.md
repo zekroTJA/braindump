@@ -191,6 +191,20 @@ resource "local_file" "deployed_instances" {
 }
 ```
 
+## Dependencies via Git
+
+```
+module "vpc" {
+  source = "git::https://example.com/vpc.git"
+}
+
+module "storage" {
+  source = "git::ssh://username@example.com/storage.git"
+}
+```
+
+- https://opentofu.org/docs/language/modules/sources/#generic-git-repository
+
 # Resources
 
 - https://youtu.be/Q4n5VUNo-l4

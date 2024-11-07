@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b578b98a6a68a41c",
+        "id": "2276b34996a480e3",
         "type": "tabs",
         "children": [
           {
-            "id": "cacbbf90c4768897",
+            "id": "044b84e83a598857",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/Languages/Rust/Encryption.md",
+                "file": "Development/DevOps/Infrastructure as Code (IaC)/OpenTofu.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "OpenTofu"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -48,13 +52,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bash",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Development/Languages/Rust/Encryption.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +100,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
@@ -102,10 +111,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Development/Languages/Rust/Encryption.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
@@ -116,7 +126,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -124,9 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Development/Languages/Rust/Encryption.md"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           }
         ]
@@ -147,10 +159,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cacbbf90c4768897",
+  "active": "044b84e83a598857",
   "lastOpenFiles": [
-    "Development/Languages/Rust/rayon.md",
+    "Development/DevOps/Infrastructure as Code (IaC)/OpenTofu/Dependencies.md",
+    "Development/DevOps/Infrastructure as Code (IaC)/OpenTofu.md",
+    "Development/DevOps/Infrastructure as Code (IaC)/OpenTofu",
     "Development/Languages/Rust/Encryption.md",
+    "Development/Linux/Guides/Limit Battery Charge Levels.md",
+    "Development/Linux/Guides/Display Battery State.md",
+    "Development/macOS/Awesome macOS Apps.md",
+    "Development/Languages/Rust/rayon.md",
     "Development/Languages/Bash/Tuple and Parameter Splitting.md",
     "Development/Languages/Bash/while read.md",
     "Development/Languages/Bash/Word Splitting.md",
@@ -165,17 +183,12 @@
     "Development/Linux/Tools/sed.md",
     "Development/Pentest",
     "Development/Tools/rg (ripgrep).md",
-    "Development/DevOps/Infrastructure as Code (IaC)/OpenTofu.md",
     "Development/DevOps/CloudInit.md",
     "Development/DevOps/Infrastructure as Code (IaC)/Pulumi.md",
     "Python.md",
     "Readme.md",
     "OpenTofu (Terraform).md",
     "Photography/Resources.md",
-    "Note Taking/Index.md",
-    "Journey/Index.md",
-    "Journey/2023.md",
-    "ETC/Cool Tools.md",
     "Development/Patterns/DI_Martin_Fowler.png",
     "Development/DevOps/Infrastructure as Code (IaC)",
     "Development/macOS",
@@ -186,7 +199,6 @@
     "ETC",
     "Journey",
     "Video Production/Audio",
-    "Video Production/FFMPEG",
     "Untitled.canvas"
   ]
 }
