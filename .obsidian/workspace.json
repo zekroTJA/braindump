@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design/Color Palettes.md",
+                "file": "Development/DevOps/Services/ntfy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Color Palettes"
+              "title": "ntfy"
             }
           }
         ]
@@ -165,9 +165,11 @@
   },
   "active": "62cf60079257b212",
   "lastOpenFiles": [
+    "Design/Color Palettes.md",
+    "Development/DevOps/Services/ntfy.md",
+    "Development/DevOps/Services",
     "Development/Linux/systemd.md",
     "Video Production/Audio/Audio Setup.md",
-    "Design/Color Palettes.md",
     "Development/Languages/Bash/Colors.md",
     "Video Production/Audio/IMG_0763.jpeg",
     "Development/Pentest/nmap.md",
@@ -193,7 +195,6 @@
     "Development/DevOps/Docker/Readme.md",
     "Development/DevOps/Docker/Dockerfile.md",
     "Development/DevOps/Docker/Daemon Configuration.md",
-    "Development/Patterns/Test Driven Development (TDD).md",
     "Development/macOS",
     "LICENSE",
     "Photography",
@@ -201,7 +202,6 @@
     "ETC",
     "Journey",
     "Video Production/Audio",
-    "Video Production/FFMPEG",
     "Development/Patterns/DI_Martin_Fowler.png",
     "Untitled.canvas"
   ]
