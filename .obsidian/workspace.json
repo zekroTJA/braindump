@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "64633d7b09b13481",
+        "id": "fa6d6a79ccbbfd86",
         "type": "tabs",
         "children": [
           {
-            "id": "62cf60079257b212",
+            "id": "9e680bc6bd991ab5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/DevOps/Services/ntfy.md",
+                "file": "Development/DevOps/Infrastructure as Code (IaC)/OpenTofu.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ntfy"
+              "title": "OpenTofu"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "audi",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5
+    "width": 249.5
   },
   "right": {
     "id": "d0084626ba0ae6a9",
@@ -93,17 +93,16 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Video Production/Audio/IMG_0763.jpeg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for IMG_0763"
+              "title": "Backlinks"
             }
           },
           {
@@ -112,12 +111,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Video Production/Audio/IMG_0763.jpeg",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from IMG_0763"
+              "title": "Outgoing links"
             }
           },
           {
@@ -138,71 +136,69 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Video Production/Audio/IMG_0763.jpeg"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of IMG_0763"
+              "title": "Outline"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 295.5,
+    "width": 317.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "62cf60079257b212",
+  "active": "9e680bc6bd991ab5",
   "lastOpenFiles": [
-    "Design/Color Palettes.md",
     "Development/DevOps/Services/ntfy.md",
     "Development/DevOps/Services",
-    "Development/Linux/systemd.md",
-    "Video Production/Audio/Audio Setup.md",
-    "Development/Languages/Bash/Colors.md",
-    "Video Production/Audio/IMG_0763.jpeg",
-    "Development/Pentest/nmap.md",
-    "Development/Pentest",
-    "Development/Linux/ssh.md",
-    "Development/Linux/Tools/awk.md",
-    "Development/Languages/Rust/Encryption.md",
-    "Development/DevOps/Infrastructure as Code (IaC)/Pulumi.md",
+    "Development/Tools/tmux.md",
     "Development/DevOps/Infrastructure as Code (IaC)/OpenTofu.md",
-    "Development/DevOps/Infrastructure as Code (IaC)/Index.md",
-    "Development/DevOps/Infrastructure as Code (IaC)",
-    "Development/DevOps/CloudInit.md",
-    "Development/DevOps/AWS.md",
-    "Photography/Resources.md",
-    "Development/Patterns/Algebraic Data Types.md",
-    "Data Science/Index.md",
+    "Development/DevOps/Infrastructure as Code (IaC)/OpenTofu/Dependencies.md",
+    "Development/DevOps/Infrastructure as Code (IaC)/OpenTofu",
+    "Development/Languages/Rust/Encryption.md",
+    "Development/Linux/Guides/Limit Battery Charge Levels.md",
     "Development/Linux/Guides/Display Battery State.md",
+    "Development/macOS/Awesome macOS Apps.md",
     "Development/Languages/Rust/rayon.md",
-    "Development/Languages/Rust/Binary Size Optimizations.md",
-    "Video Production/FFMPEG/FFMPEG Cheatsheet.md",
-    "Development/DevOps/Docker/Guides.md",
-    "Development/Languages/Go/Snippets.md",
-    "Development/DevOps/Docker/Readme.md",
-    "Development/DevOps/Docker/Dockerfile.md",
-    "Development/DevOps/Docker/Daemon Configuration.md",
+    "Development/Languages/Bash/Tuple and Parameter Splitting.md",
+    "Development/Languages/Bash/while read.md",
+    "Development/Languages/Bash/Word Splitting.md",
+    "Development/Languages/Bash/Conditions.md",
+    "Development/Languages/Bash/Colors.md",
+    "Development/Languages/Bash/Index.md",
+    "Development/Linux/Tools/awk.md",
+    "Development/Linux/Tools/jq.md",
+    "Development/DevOps/AWS.md",
+    "Development/DevOps/Infrastructure as Code (IaC)/Index.md",
+    "Development/Pentest/nmap.md",
+    "Development/Linux/Tools/sed.md",
+    "Development/Pentest",
+    "Development/Tools/rg (ripgrep).md",
+    "Development/DevOps/CloudInit.md",
+    "Development/DevOps/Infrastructure as Code (IaC)/Pulumi.md",
+    "Python.md",
+    "Readme.md",
+    "Development/Patterns/DI_Martin_Fowler.png",
+    "Development/DevOps/Infrastructure as Code (IaC)",
     "Development/macOS",
     "LICENSE",
+    "Video Production/Audio/IMG_0763.jpeg",
     "Photography",
     "Cooking",
     "ETC",
     "Journey",
-    "Video Production/Audio",
-    "Development/Patterns/DI_Martin_Fowler.png",
     "Untitled.canvas"
   ]
 }

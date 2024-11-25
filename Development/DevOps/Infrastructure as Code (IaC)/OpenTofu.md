@@ -205,6 +205,14 @@ module "storage" {
 
 - https://opentofu.org/docs/language/modules/sources/#generic-git-repository
 
+## Force-Replace entity
+
+```
+tofu apply -replace=<address>
+```
+
+Address is the path that is also printed when using `tofu apply`. Something like `module.servers["foo"].aws_instance.stateless_instance`.
+
 # Resources
 
 - https://youtu.be/Q4n5VUNo-l4
