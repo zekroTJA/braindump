@@ -3,7 +3,7 @@
 ## Convert
 
 ```
-ffmpeg -i input.flv -c:v libx264 -c:a aac output.mp4
+ffmpeg -i input.flv -vcodec libx264 -acodec aac output.mp4
 ```
 
 Converts an input video file to an output with H.264 as video codec and aac as audio codec.
