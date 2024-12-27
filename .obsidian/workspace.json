@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Video Production/Tools/heif-convert.md",
+                "file": "Video Production/FFMPEG/FFMPEG Cheatsheet.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "FFMPEG Cheatsheet"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Video Production/Tools/heif-convert.md",
+                "file": "Video Production/FFMPEG/FFMPEG Cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for FFMPEG Cheatsheet"
             }
           },
           {
@@ -102,10 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Video Production/Tools/heif-convert.md",
+                "file": "Video Production/FFMPEG/FFMPEG Cheatsheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from FFMPEG Cheatsheet"
             }
           },
           {
@@ -116,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Video Production/Tools/heif-convert.md"
-              }
+                "file": "Video Production/FFMPEG/FFMPEG Cheatsheet.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of FFMPEG Cheatsheet"
             }
           }
         ]
@@ -149,8 +165,8 @@
   },
   "active": "6beacd7c2e37fcbb",
   "lastOpenFiles": [
-    "Development/Languages/Rust/rayon.md",
     "Video Production/Tools/heif-convert.md",
+    "Development/Languages/Rust/rayon.md",
     "Video Production/Tools",
     "Development/Pentest/nmap.md",
     "Development/Pentest",

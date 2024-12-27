@@ -1,5 +1,14 @@
 > This has been originally pulled from the following Gist. [https://gist.github.com/zekroTJA/d7985ffcb05a38a47a3b45eb85fc2133](https://gist.github.com/zekroTJA/d7985ffcb05a38a47a3b45eb85fc2133)
 
+## Convert
+
+```
+ffmpeg -i input.flv -c:v libx264 -c:a aac output.mp4
+```
+
+Converts an input video file to an output with H.264 as video codec and aac as audio codec.
+
+---
 ## Speed up or slow down
 
 ```
