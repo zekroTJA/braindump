@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "fa6d6a79ccbbfd86",
+        "id": "c26a2663c8071881",
         "type": "tabs",
         "children": [
           {
-            "id": "9e680bc6bd991ab5",
+            "id": "6beacd7c2e37fcbb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/DevOps/Infrastructure as Code (IaC)/OpenTofu.md",
+                "file": "Video Production/Tools/heif-convert.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "OpenTofu"
+              }
             }
           }
         ]
@@ -41,9 +39,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
+              }
             }
           },
           {
@@ -58,9 +54,7 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
+              }
             }
           },
           {
@@ -68,16 +62,14 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 229.5
   },
   "right": {
     "id": "d0084626ba0ae6a9",
@@ -93,16 +85,15 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Video Production/Tools/heif-convert.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": false
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks"
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
             }
           },
           {
@@ -111,11 +102,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Video Production/Tools/heif-convert.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links"
+                "unlinkedCollapsed": true
+              }
             }
           },
           {
@@ -126,9 +116,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
+              }
             }
           },
           {
@@ -136,69 +124,69 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
-              "icon": "lucide-list",
-              "title": "Outline"
+              "state": {
+                "file": "Video Production/Tools/heif-convert.md"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 317.5,
+    "width": 295.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "omnisearch:Omnisearch": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "9e680bc6bd991ab5",
+  "active": "6beacd7c2e37fcbb",
   "lastOpenFiles": [
+    "Development/Languages/Rust/rayon.md",
+    "Video Production/Tools/heif-convert.md",
+    "Video Production/Tools",
+    "Development/Pentest/nmap.md",
+    "Development/Pentest",
+    "Development/Patterns/Algebraic Data Types.md",
+    "Development/Linux/ssh.md",
+    "Development/Linux/Tools/awk.md",
+    "Development/Linux/Guides/Display Battery State.md",
+    "Development/Languages/Rust/Encryption.md",
+    "Development/Languages/Rust/Binary Size Optimizations.md",
     "Development/DevOps/Services/ntfy.md",
     "Development/DevOps/Services",
-    "Development/Tools/tmux.md",
-    "Development/DevOps/Infrastructure as Code (IaC)/OpenTofu.md",
-    "Development/DevOps/Infrastructure as Code (IaC)/OpenTofu/Dependencies.md",
-    "Development/DevOps/Infrastructure as Code (IaC)/OpenTofu",
-    "Development/Languages/Rust/Encryption.md",
-    "Development/Linux/Guides/Limit Battery Charge Levels.md",
-    "Development/Linux/Guides/Display Battery State.md",
-    "Development/macOS/Awesome macOS Apps.md",
-    "Development/Languages/Rust/rayon.md",
-    "Development/Languages/Bash/Tuple and Parameter Splitting.md",
-    "Development/Languages/Bash/while read.md",
-    "Development/Languages/Bash/Word Splitting.md",
-    "Development/Languages/Bash/Conditions.md",
-    "Development/Languages/Bash/Colors.md",
-    "Development/Languages/Bash/Index.md",
-    "Development/Linux/Tools/awk.md",
-    "Development/Linux/Tools/jq.md",
-    "Development/DevOps/AWS.md",
-    "Development/DevOps/Infrastructure as Code (IaC)/Index.md",
-    "Development/Pentest/nmap.md",
-    "Development/Linux/Tools/sed.md",
-    "Development/Pentest",
-    "Development/Tools/rg (ripgrep).md",
-    "Development/DevOps/CloudInit.md",
     "Development/DevOps/Infrastructure as Code (IaC)/Pulumi.md",
-    "Python.md",
-    "Readme.md",
-    "Development/Patterns/DI_Martin_Fowler.png",
+    "Development/DevOps/Infrastructure as Code (IaC)/OpenTofu.md",
+    "Development/DevOps/Infrastructure as Code (IaC)/Index.md",
     "Development/DevOps/Infrastructure as Code (IaC)",
+    "Development/DevOps/CloudInit.md",
+    "Development/DevOps/AWS.md",
+    "Development/macOS/Awesome macOS Apps.md",
+    "Video Production/FFMPEG/FFMPEG Cheatsheet.md",
+    "Development/Patterns/Test Driven Development (TDD).md",
+    "Development/Languages/Go/Snippets.md",
+    "Development/Languages/Go/Channels.md",
+    "Development/DevOps/Docker/Guides.md",
+    "Readme.md",
     "Development/macOS",
     "LICENSE",
+    "Development/Tools/rg (ripgrep).md",
+    "Development/Virtualization/KVM and QEMU.md",
+    "Development/Languages/Bash/Tuple and Parameter Splitting.md",
+    "Cooking/Coffee Recipes.md",
     "Video Production/Audio/IMG_0763.jpeg",
     "Photography",
     "Cooking",
     "ETC",
     "Journey",
+    "Development/Patterns/DI_Martin_Fowler.png",
     "Untitled.canvas"
   ]
 }
