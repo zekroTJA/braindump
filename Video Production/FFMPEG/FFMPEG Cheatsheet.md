@@ -68,7 +68,11 @@ ffmpeg -i test.mp4 -map 0:2:a -vn -c copy audio_mic.aac
 ## Merge audio tracks in video
 
 ```
-ffmpeg -i test.mp4 -i audio_mic.mp3 -filter_complex amerge -map 0:a:0 -map 0:v:0 merged.mp4
+ffmpeg -i in.mov -ss 1 \
+        -filter_complex "[0:a:0]volume=1[a1];[0:a:1]volume=1[a2];[a1][a2]amix=inputs=2[a]" \
+        -map 0:v -map "[a]" \
+        -c:v copy -c:a aac -ac 2 -b:a 320k \
+        out.mov
 ```
 
 ## Extract Alpha Layer from Video
