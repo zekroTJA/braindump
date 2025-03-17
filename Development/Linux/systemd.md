@@ -2,6 +2,23 @@
 
 ### Example
 
+> https://github.com/zekroTJA/sysinfo-exporter/blob/main/config/systemd/sysinfo-exporter.service
+```Toml
+[Unit]
+Description=Sysinfo Exporter
+After=network.target auditd.service
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/sysinfo-exporter --config /etc/sysinfo-exporter/config.toml
+KillMode=process
+Restart=always
+
+[Install]
+WantedBy=default.target
+Alias=sysinfo-exporter.service
+```
+
 > `/etc/systemd/system/sshd.service`
 
 ```toml
