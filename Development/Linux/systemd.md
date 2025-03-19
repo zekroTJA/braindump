@@ -13,6 +13,7 @@ Type=simple
 ExecStart=/usr/local/bin/sysinfo-exporter --config /etc/sysinfo-exporter/config.toml
 KillMode=process
 Restart=always
+WorkingDirectory=/var/sysinfo-exporter
 
 [Install]
 WantedBy=default.target
