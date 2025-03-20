@@ -6,3 +6,7 @@
 # Cron
 
 - [crontab.guru](https://crontab.guru/): A tool to explain crontab syntax
+
+# Monitoring
+
+- [semonto.com](https://semonto.com): Check website availability in different locations
