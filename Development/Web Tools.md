@@ -9,4 +9,4 @@
 
 # Monitoring
 
-- [semonto.com](https://semonto.com): Check website availability in different locations
+- [semonto.com](https://semonto.com/tools/website-reachability-check): Check website availability in different locations
