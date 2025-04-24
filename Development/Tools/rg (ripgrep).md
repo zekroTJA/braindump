@@ -9,3 +9,9 @@ Search and replace
 echo "foo-bar baz" | rg "foo-(\w+)" --passthru --replace 'fuz-${1}'
 # fuz-bar baz
 ```
+
+Print only matching
+```bash
+echo hello world | rg --only-matching 'world' # or -o
+# world
+```
