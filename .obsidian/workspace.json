@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7151eac292d23b60",
+        "id": "6b04f2e575b62871",
         "type": "tabs",
         "children": [
           {
-            "id": "fb9d591770ee86be",
+            "id": "eec5e69e9a8e488c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/Linux/LVM.md",
+                "file": "Development/Contentions/Semantic Commit Messages.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LVM"
-            }
-          },
-          {
-            "id": "79b5becc641b1d75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Development/Benchmarking/k6/K6 Kubernetes Deployment.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "K6 Kubernetes Deployment"
+              "title": "Semantic Commit Messages"
             }
           }
         ]
@@ -195,10 +181,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fb9d591770ee86be",
+  "active": "eec5e69e9a8e488c",
   "lastOpenFiles": [
-    "Development/DevOps/Docker/Readme.md",
+    "Development/Tools/git-cliff.md",
+    "Development/Contentions/Semantic Commit Messages.md",
+    "Development/Tools/git.md",
+    "Development/Contentions",
+    "Development/Languages/Rust/Binary Size Optimizations.md",
+    "Development/Languages/Bash/Colors.md",
     "Development/Linux/LVM.md",
+    "Development/DevOps/Docker/Readme.md",
     "Development/Tools/rg (ripgrep).md",
     "Development/Languages/Bash/while read.md",
     "Development/HTTP/Index.md",
