@@ -32,6 +32,6 @@ Fixes #2310
 ```
 
 # Sources
-- https://sparkbox.com/foundry/semantic_commit_messages
 - https://karma-runner.github.io/6.3/dev/git-commit-msg.html
+- https://sparkbox.com/foundry/semantic_commit_messages
 - https://www.conventionalcommits.org/en/v1.0.0/#summary
