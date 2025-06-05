@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/Contentions/Semantic Commit Messages.md",
+                "file": "Development/Conventions/Semantic Commit Messages.md",
                 "mode": "source",
                 "source": false
               },
@@ -181,12 +181,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eec5e69e9a8e488c",
+  "active": "91da55b85e8d0d02",
   "lastOpenFiles": [
     "Development/Tools/git-cliff.md",
-    "Development/Contentions/Semantic Commit Messages.md",
+    "Development/Conventions/Semantic Commit Messages.md",
     "Development/Tools/git.md",
-    "Development/Contentions",
+    "Development/Conventions",
     "Development/Languages/Rust/Binary Size Optimizations.md",
     "Development/Languages/Bash/Colors.md",
     "Development/Linux/LVM.md",
