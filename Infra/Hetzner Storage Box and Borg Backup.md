@@ -58,6 +58,26 @@ ntfy:
     - fail
 ```
 
+# Mount Backups
+
+First, list available archives.
+```bash
+borgmatic -c borgmatic.yml list
+# with --match-archives '*' you can also list archives 
+# not matching the identifier of the current machine.
+```
+
+Before mounting, you need to create the mount point and change the permissions on it.
+```bash
+sudo mkdir /mnt/backup
+sudo chown $(whoami) /mnt/backup
+```
+
+After that, you can select a specific archive to mount by name or you can simply mount the `latest` archive.
+```bash
+borgmatic -c borgmatic.yml mount --archive latest --mount-point /mnt/backup
+```
+
 # Sources
 
 - https://docs.hetzner.com/storage/storage-box/backup-space-ssh-keys/
