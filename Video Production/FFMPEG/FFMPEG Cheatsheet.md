@@ -3,10 +3,18 @@
 ## Convert
 
 ```
-ffmpeg -i input.flv -vcodec libx264 -acodec aac output.mp4
+ffmpeg -i input -map 0 -c:v libx264 -crf 18 -c:a aac output.mp4
 ```
 
 Converts an input video file to an output with H.264 as video codec and aac as audio codec.
+
+```
+ffmpeg -i input -map 0 -c:v libx264 -crf 18 -vf format=yuv420p -c:a aac output.mkv
+```
+
+Converts an input video file to an output with H.264 as video codec and aac as audio codec. using 8-bit color space for the output stream.
+
+[*Source*](https://superuser.com/questions/1380946/how-do-i-convert-10-bit-h-265-hevc-videos-to-h-264-without-quality-loss)
 
 ---
 ## Speed up or slow down
