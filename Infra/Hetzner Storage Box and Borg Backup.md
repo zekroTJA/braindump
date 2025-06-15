@@ -78,6 +78,15 @@ After that, you can select a specific archive to mount by name or you can simply
 borgmatic -c borgmatic.yml mount --archive latest --mount-point /mnt/backup
 ```
 
+## MacOS
+
+To mount borg backups on MacOS, [macFuse](https://github.com/macfuse/macfuse) needs to be installed and borg must be installed with macFuse support enabled.
+
+```bash
+brew install --cask macfuse
+brew install borgbackup/tap/borgbackup-fuse
+```
+
 # Sources
 
 - https://docs.hetzner.com/storage/storage-box/backup-space-ssh-keys/
@@ -87,3 +96,4 @@ borgmatic -c borgmatic.yml mount --archive latest --mount-point /mnt/backup
 - https://torsion.org/borgmatic/docs/how-to/set-up-backups/
 - https://torsion.org/borgmatic/docs/reference/configuration/
 - https://docs.borgbase.com/setup/borg/synology
+- https://github.com/borgbackup/homebrew-tap
