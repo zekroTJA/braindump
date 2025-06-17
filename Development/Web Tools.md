@@ -10,3 +10,7 @@
 # Monitoring
 
 - [semonto.com](https://semonto.com/tools/website-reachability-check): Check website availability in different locations
+
+# Shell
+
+- [explainshell.com](https://explainshell.com): Get an explanation for shell commands and their parameters
