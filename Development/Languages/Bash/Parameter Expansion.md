@@ -36,6 +36,14 @@ echo "${foo%/*}"
 echo "${foo%%/*}"
 # some
 ```
+
+Lowercase
+```bash
+foo="Hello World!"
+echo "${foo,,}"
+# hello world!
+```
+
 # Resources
 
 - [https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html](https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html)
