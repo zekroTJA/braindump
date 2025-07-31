@@ -27,14 +27,22 @@ echo "${foo/hello/bye}"
 Remove / Cut Pattern
 ```bash
 foo="some/path/file.txt"
+
+# cut shortest match from the beginning of the string
 echo "${foo#*/}"
-# path/file.txt
+# -> path/file.txt
+
+# cut longest match from the beginning of the string
 echo "${foo##*/}"
-# file.txt
+# -> file.txt
+
+# cut shortest match from the end of the string
 echo "${foo%/*}"
-# some/path
+# -> some/path
+
+# cut longest match from the end of the string
 echo "${foo%%/*}"
-# some
+# -> some
 ```
 
 Lowercase
