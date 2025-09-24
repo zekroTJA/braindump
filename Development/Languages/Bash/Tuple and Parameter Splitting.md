@@ -1,3 +1,12 @@
+The best way to split a string is using `read` as following:
+
+```bash
+a="hello:world"
+IFS=':' read -ra line <<< "$a"
+echo "${line[0]} ; ${line[1]}"
+# Outputs: hello ; world
+```
+
 The `set` builtin can be used to split a string into its parts when used as following.
 
 ```bash
