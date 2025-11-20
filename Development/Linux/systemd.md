@@ -51,6 +51,13 @@ Alias=sshd.service
 
 - `WorkingDirectory=` - Specify the working directory
 
+## Overrides
+
+```
+systemctl edit <service-name>
+```
+
+Opens an editor where additional overwrites of options in a service file can be specified. Those are then saved to a override config in `/etc/systemd/system/<service-name>.service.d/override.conf`.
 # User Services
 
 - https://www.baeldung.com/linux/systemd-create-user-services
