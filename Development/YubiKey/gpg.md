@@ -20,6 +20,12 @@ sudo systemctl restart pcscd
 gpg --card-status
 ```
 
+On debian, scdaemon might be needed to be installed beforehand.
+
+```bash
+sudo apt-get update && sudo apt-get -y install scdaemon
+```
 ## Sources
 
 - https://claude.ai/share/87e09f1d-f37a-46c9-95b7-82fc88e1ea84
+- https://installati.one/install-scdaemon-debian-11/
