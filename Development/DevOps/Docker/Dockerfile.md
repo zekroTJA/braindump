@@ -27,3 +27,7 @@ RUN --mount=type=bind,source=requirements.txt,target=/tmp/requirements.txt \
 ```
 
 > Source: https://docs.docker.com/build/building/best-practices/#add-or-copy
+
+## Sources
+
+- https://docs.docker.com/build/building/best-practices/#add-or-copy
