@@ -17,3 +17,13 @@ COPY --link --from=build-dev /go/bin/feed2bsky /go/bin/feed2bsky
 COPY --from=build-dev /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 CMD ["/go/bin/feed2bsky"]
 ```
+
+## Mount on build
+
+With `RUN --mount`, you can mount files on built which are required to run a command but should not be copied to the image.
+```dockerfile
+RUN --mount=type=bind,source=requirements.txt,target=/tmp/requirements.txt \
+    pip install --requirement /tmp/requirements.txt
+```
+
+> Source: https://docs.docker.com/build/building/best-practices/#add-or-copy
