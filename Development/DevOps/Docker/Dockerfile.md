@@ -1,4 +1,4 @@
-This Dockerfile from [https://github.com/mattn/feed2bsky](https://github.com/mattn/feed2bsky) is a good example for building a Go application and deploying it to a `scratch` docker image.
+This [[Dockerfile]] from [https://github.com/mattn/feed2bsky](https://github.com/mattn/feed2bsky) is a good example for building a Go application and deploying it to a `scratch` docker image.
 
 ```Dockerfile
 # syntax=docker/dockerfile:1.4

@@ -1,4 +1,4 @@
-The Daemon Configuration for Docker can be found at `/etc/docker/daemon.json`.
+The Daemon Configuration for [[Docker]] can be found at `/etc/docker/daemon.json`.
 
 # Default Address Pools
 
