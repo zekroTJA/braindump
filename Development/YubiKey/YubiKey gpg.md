@@ -1,3 +1,4 @@
+How to use [[gpg]] with YubiKey.
 
 Open the GPG wizard to generate, list and manage GPG keys on the YubiKey.
 ```bash
