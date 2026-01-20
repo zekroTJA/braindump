@@ -62,10 +62,21 @@ With `RUN --mount`, you can mount files on built which are required to run a com
 
 ```dockerfile
 RUN --mount=type=bind,source=requirements.txt,target=/tmp/requirements.txt \
-    pip install --requirement /tmp/requirements.txt
+	    pip install --requirement /tmp/requirements.txt
 ```
 
 > Source: https://docs.docker.com/build/building/best-practices/#add-or-copy
+
+## Use of `ARG`
+
+`ARG` declared before `FROM` is outside of the build stage, so it can't be used in any instruction after `FROM`. To make it available after `FROM`, declare the `ARG` without a default value.
+
+```dockerfile
+ARG VERSION=latest
+FROM busybox:$VERSION
+ARG VERSION
+RUN echo $VERSION > image_version
+```
 
 ## Sources
 
