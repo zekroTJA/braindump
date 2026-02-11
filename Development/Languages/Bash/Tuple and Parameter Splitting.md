@@ -1,4 +1,4 @@
-The best way to split a string is using `read` as following:
+The best way to split a string in [[bash]] is using `read` as following:
 
 ```bash
 a="hello:world"

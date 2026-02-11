@@ -1,4 +1,4 @@
-You can use different conditions and checks inside brackets. Example:
+You can use different conditions and checks inside brackets in [[bash]]. Example:
 
 ```bash
 # Checks if "some-file" exists and creates it, if not.
