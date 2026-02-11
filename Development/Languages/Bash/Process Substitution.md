@@ -11,6 +11,10 @@ ls <(echo a)
 diff <(sort file1) <(sort file2)
 ```
 
+The following example prints log output to the terminal using less but also writes messages on StdErr to an errors.log file.
+```bash
+someprogram > >(less) 2> >(tee errors.log)
+```
 ### Sources
 
 - https://www.youtube.com/watch?v=2A4bs40scSo
