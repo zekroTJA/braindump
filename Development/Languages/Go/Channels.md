@@ -1,3 +1,4 @@
+Channels in [[Go]] are data structures to simply sent data between go-routines.
 # Channel Axioms
 
 - A send to a nil channel blocks forever
