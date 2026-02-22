@@ -1,3 +1,4 @@
+Simple argument parsing in [[bash]].
 
 ```bash
 POSITIONAL_ARGS=()

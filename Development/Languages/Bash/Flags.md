@@ -1,3 +1,5 @@
+Common [[bash]] flags.
+
 ```bash
 # most notable ones
 set -e # exit script when command fails

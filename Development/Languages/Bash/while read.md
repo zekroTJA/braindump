@@ -1,4 +1,4 @@
-`while read` can be used to read a line-by-line output from stdIn.
+`while read` can be used in [[bash]] to read a line-by-line output from stdIn.
 
 Here is a useful example iterating over the output of `find` using `while read`.
 

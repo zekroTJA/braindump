@@ -1,4 +1,4 @@
-Word splitting in loops:
+[[bash]] Word splitting in loops:
 
 ```bash
 #!/bin/bash
