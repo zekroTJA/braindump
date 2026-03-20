@@ -2,7 +2,7 @@ General resources, applications and tools around self-hosting servers and infras
 
 # Applications
 
-- [[traefik Proxy]]
+- [[traefik]]
 - [[Portainer]]
 
 # Cloud Platforms
