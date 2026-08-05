@@ -1,3 +1,5 @@
+StdOut / StdIn piping in [[bash]].
+
 Pipe to StdErr
 ```bash
 find doesnotexist 2> /dev/null

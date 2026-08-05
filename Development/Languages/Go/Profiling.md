@@ -1,4 +1,4 @@
-Performance profiling can be done in go using the [`pprof`](https://pkg.go.dev/runtime/pprof) package.
+Performance profiling can be done in [[Go]] using the [`pprof`](https://pkg.go.dev/runtime/pprof) package.
 
 ## CPU Profiling
 

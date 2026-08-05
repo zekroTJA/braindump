@@ -1,3 +1,4 @@
+> I am using [Obsidian](https://obsidian.md/) to manage this vault. Though you should be able to navigate and work with this collection of notes in any other app, some syntax like `[[Backlinks]]` will only work inside Obsidian.
 # Braindump 🧠
 
 In 2022, I set myself a goal to document everything around what I learn, what I work with or what I am discovering in a public repository of knowledge, because you will most likely not be able to recall everything you've learned, but so you can look it up at any time.

@@ -1,4 +1,4 @@
-Switch case statement in bash.
+Switch case statement in [[bash]].
 
 # Example
 

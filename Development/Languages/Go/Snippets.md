@@ -1,3 +1,4 @@
+A collection of useful [[Go]] snippets.
 # Cancel Loops via Context
 
 Playground: https://go.dev/play/p/_wFt5EUBI8M

@@ -1,4 +1,4 @@
-ANSI Color Codes to color terminal output.
+ANSI Color Codes to colorize [[bash]] terminal output.
 # Resources
 
 - https://colors.sh/

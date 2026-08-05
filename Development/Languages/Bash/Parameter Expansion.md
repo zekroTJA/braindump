@@ -1,3 +1,4 @@
+Parameter expansion in [[bash]].
 # Common Examples
 
 Variable Defaults

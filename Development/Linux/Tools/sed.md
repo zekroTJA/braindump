@@ -23,7 +23,13 @@ sed -i 's/^M$//' file.txt
 ### Remove ANSI Color Codes
 
 ```bash
-sed -r "s/\x1B\[(([0-9]{1,2})?(;)?([0-9]{1,2})?)?[m,K,H,f,J]//g" file.txto
+sed -r "s/\x1B\[(([0-9]{1,2})?(;)?([0-9]{1,2})?)?[m,K,H,f,J]//g" file.txt
+```
+
+### Update a complete line
+
+```bash
+sed -i "/aaa=/c\aaa=xxx" file.txt
 ```
 
 # Resources

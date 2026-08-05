@@ -28,3 +28,7 @@ A collection of real-world example use-cases of Go with well-documented code sni
 If you are already a bit deeper into the language, I think the code of the standard library is the best source for learning how to work with the language by just looking at how the Go team does achieve certain things. Also, the standard library is pretty well understandable and has some great documentation.
 
 [https://github.com/golang/go/](https://github.com/golang/go/)
+
+## Effective Go
+
+https://go.dev/doc/effective_go

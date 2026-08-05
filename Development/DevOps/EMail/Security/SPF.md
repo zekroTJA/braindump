@@ -18,12 +18,11 @@ example.net.  TXT  "v=spf1 mx a:pluto.example.net include:aspmx.googlemail.com -
 ```
 
 |v=spf1|SPF version 1|
-    |---|---|
-    |mx|the incoming mail servers (MXes) of the domain are authorized to also send mail for [example.net](http://example.net)|
-    |a:pluto.example.net|the machine [pluto.example.net](http://pluto.example.net) is authorized, too|
-    |include:aspmx.googlemail.com|everything considered legitimate by [gmail.com](http://gmail.com) is legitimate for [example.net](http://example.net), too|
-    |-all|all other machines are not authorized|
-
+|---|---|
+|mx|the incoming mail servers (MXes) of the domain are authorized to also send mail for [example.net](http://example.net)|
+|a:pluto.example.net|the machine [pluto.example.net](http://pluto.example.net) is authorized, too|
+|include:aspmx.googlemail.com|everything considered legitimate by [gmail.com](http://gmail.com) is legitimate for [example.net](http://example.net), too|
+|-all|all other machines are not authorized
 # Resources
 
 - [http://www.open-spf.org/Introduction/](http://www.open-spf.org/Introduction/)

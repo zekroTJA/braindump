@@ -1,4 +1,4 @@
-Here is a simple example of a bash function returning a boolean.
+Here is a simple example of a [[bash]] function returning a boolean.
 
 ```bash
 function find_gofiles() {

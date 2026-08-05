@@ -1,6 +1,6 @@
 # Setup
 
-## Storage Box
+## [[Storage Box]]
 
 1. Order a Storage Box via Hetzner Robot
 2. Reset password

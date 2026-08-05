@@ -1,4 +1,4 @@
-It is possible to specify custom formatting rules — which are referred when using i.E. `fmt.Sprintf` — on types by implementing the following method.
+It is possible to specify custom formatting rules in [[Go]] — which are referred when using i.E. `fmt.Sprintf` — on types by implementing the following method.
 
 ```go
 func (t DetailedError) Format(s fmt.State, verb rune) {
