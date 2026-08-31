@@ -69,3 +69,42 @@ services:
       # traefik.http.services.whoami.loadbalancer.server.port: "80"
 
 ```
+
+## http → https redirect
+
+```yaml
+command:
+  - "--entrypoints.web.http.redirections.entrypoint.to=websecure"
+  - "--entrypoints.web.http.redirections.entrypoint.scheme=https"
+  - "--entrypoints.web.http.redirections.entrypoint.permanent=true"
+```
+
+## Using custom certs
+
+First of all, a [[Self Signed Certificates]] must be generated and can then be placed in `./traefik/certs` for example.
+
+After that, create a dynamic config in `./traefik/dynamic.conf` with the following contents.
+
+```yaml
+tls:
+  certificates:
+    - certFile: /etc/traefik/certs/cert.pem
+      keyFile: /etc/traefik/certs/key.pem
+  stores:
+    default:
+      defaultCertificate:
+        certFile: /etc/traefik/certs/cert.pem
+        keyFile: /etc/traefik/certs/key.pem
+```
+
+Then, define and mount the certs as well as the config.
+
+```yaml
+services:
+  traefik:
+    command:
+      - "--configFile=/etc/traefik/traefik.yml"
+    volumes:
+      - ./traefik/certs:/etc/traefik/certs:ro
+      - ./traefik/dynamic.yml:/etc/traefik/dynamic.yml:ro
+```
