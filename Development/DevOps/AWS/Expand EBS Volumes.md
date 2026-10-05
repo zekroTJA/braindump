@@ -1,4 +1,4 @@
-Steps to do to extend an EBS volume on an [[AWS]] EC2 Instance.
+**Steps** to do to extend an EBS volume on an [[AWS]] EC2 Instance.
 ## Linux
 
 First, extend the EBS volume in the AWS Console, TUI or IaC. After that, connect to the EC2 instance.
