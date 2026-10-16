@@ -12,3 +12,4 @@ echo "foo bar" | awk '{ printf "|%-5s|%5s|\n", $1, $2 }'
 # Resources
 
 - Cheat Sheet: https://quickref.me/awk.html#awk-loops
+- Learn X in Y Minutes: https://learnxinyminutes.com/awk/
