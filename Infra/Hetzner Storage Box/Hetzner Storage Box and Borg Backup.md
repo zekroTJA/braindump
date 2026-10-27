@@ -78,6 +78,7 @@ After that, you can select a specific archive to mount by name or you can simply
 borgmatic -c borgmatic.yml mount --archive latest --mount-point /mnt/backup
 ```
 
+With the flag `-o uid=$(id -u),gid=$(id -g)`, the mounted files are chowned on the current user which might be necessary when the stored files belong to another user.
 ## MacOS
 
 To mount borg backups on MacOS, [macFuse](https://github.com/macfuse/macfuse) needs to be installed and borg must be installed with macFuse support enabled.
