@@ -19,7 +19,7 @@ while [[ $# -gt 0 ]]; do
       DEFAULT=YES
       shift # past argument
       ;;
-    -*|--*)
+    -*)
       echo "Unknown option $1"
       exit 1
       ;;
