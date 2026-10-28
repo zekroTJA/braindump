@@ -10,7 +10,7 @@ A “cloud native” HTTP/S and TCP proxy server perfectly suited for being used
 ```yml
 # networks:
 #   proxy:
-#     external: true
+#     driver: bridge
 
 volumes:
   letsencrypt:
