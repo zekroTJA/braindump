@@ -32,6 +32,8 @@ services:
       - "--providers.docker.exposedbydefault=false"
       # - "--providers.docker.network=proxy"
       - "--providers.docker.watch=true"
+      - "--providers.file.directory=/etc/traefik/dynamic"
+      - "--providers.file.watch=true"
       - "--entrypoints.web.address=:80"
       - "--entrypoints.web.http.redirections.entrypoint.to=websecure"
       - "--entrypoints.web.http.redirections.entrypoint.scheme=https"
@@ -50,6 +52,7 @@ services:
     #   - proxy
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro
+      - ./traefik/dynamic:/etc/traefik/dynamic:ro
       - letsencrypt:/letsencrypt
     security_opt:
       - no-new-privileges:true
@@ -97,14 +100,32 @@ tls:
         keyFile: /etc/traefik/certs/key.pem
 ```
 
-Then, define and mount the certs as well as the config.
+To use this, dynamic conifs must be enabled as provider.
+## Middlewares
 
-```yaml
-services:
-  traefik:
-    command:
-      - "--configFile=/etc/traefik/traefik.yml"
-    volumes:
-      - ./traefik/certs:/etc/traefik/certs:ro
-      - ./traefik/dynamic.yml:/etc/traefik/dynamic.yml:ro
+Default middleware for sub path removal and traling slashes, which can be used as general middleware for any service.
+
+```yml
+http:
+  middlewares:
+    strip-first-segment:
+      stripPrefixRegex:
+        regex:
+          - '^/[^/]+'
+    add-trailing-slash:
+      redirectRegex:
+        regex: '^(https?://[^/]+/[^/?]+)(\?.*)?$'
+        replacement: '${1}/${2}'
+        permanent: true
+    subpath:
+      chain:
+        middlewares:
+          - add-trailing-slash
+          - strip-first-segment
+```
+
+This can the be used in the router as following:
+```yml
+labels:
+  traefik.http.routers.example.middlewares: "subpath@file"
 ```
