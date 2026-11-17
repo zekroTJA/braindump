@@ -1,4 +1,5 @@
 {
   "accentColor": "#f55c73",
-  "cssTheme": "AnuPpuccin"
+  "cssTheme": "AnuPpuccin",
+  "showRibbon": true
 }
